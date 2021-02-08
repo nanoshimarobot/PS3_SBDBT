@@ -1,23 +1,21 @@
-Microchip Technology Inc, v1.41 (B)
+Microchip Technology Inc, v1.60 (A)
 
 Tool Name:
-  c:\program files (x86)\microchip\xc16\v1.41\bin\bin\..\bin/elf-ld.exe
+  c:\program files\microchip\xc16\v1.60\bin\bin\..\bin/elf-ld.exe
 
 Command:
   -p24FJ64GB004 \
-  --mdfp=C:/Program Files (x86)/Microchip/MPLABX/v5.30/packs/Microchip/PIC24F-GA-GB_DFP/1.1.74/xc16 \
   -o \
   dist/default/production/sbxbt_ps3.X.production.elf \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/.. \
-  -LC:/Program Files (x86)/Microchip/MPLABX/v5.30/packs/Microchip/PIC24F-GA-GB_DFP/1.1.74/xc16/bin/../support/PIC24F/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../support/PIC24E/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../support/PIC24F/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../support/PIC24H/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../support/dsPIC30F/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../support/dsPIC33C/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../support/dsPIC33E/gld \
-  -Lc:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../support/dsPIC33F/gld \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/.. \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../lib \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/dsPIC33C/gld \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files/microchip/xc16/v1.60/bin/bin/../../support/dsPIC33F/gld \
   build/default/production/_ext/1468720089/btstack_memory.o \
   build/default/production/_ext/1468720089/hci.o \
   build/default/production/_ext/1468720089/hci_cmds.o \
@@ -78,61 +76,61 @@ Command:
 Optional library libpPIC24Fxxx.a not found
 Archive member included because of file (symbol)
 
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
                               (__resetPRI)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o) (__data_init_standard)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(crt_start_mode_normal.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o) (__data_init_standard)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(crt_start_mode_normal.eo)
                               (__crt_start_mode_normal)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(addsf3.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.eo)
                               build/default/production/_ext/1472/main.o (___subsf3)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(divsf3.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(divsf3.eo)
                               build/default/production/_ext/1472/main.o (___divsf3)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(feqltle.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(feqltle.eo)
                               build/default/production/_ext/1472/main.o (___ltsf2)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fixsfsi.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fixsfsi.eo)
                               build/default/production/_ext/1472/main.o (_(float, int, long long, short, float, short, int))
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(floatunsisf.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatunsisf.eo)
                               build/default/production/_ext/1472/main.o (___floatunsisf)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fpack.eo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(addsf3.eo) (__fpack)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(funpack.eo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fixsfsi.eo) (__funpack)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(funpack2.eo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(addsf3.eo) (__funpack2)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(futil.eo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(addsf3.eo) (__fPropagateNaN)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(mulsf3.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fpack.eo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.eo) (__fpack)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack.eo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fixsfsi.eo) (__funpack)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack2.eo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.eo) (__funpack2)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(futil.eo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.eo) (__fPropagateNaN)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(mulsf3.eo)
                               build/default/production/_ext/1472/main.o (___mulsf3)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(udivsi3.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(udivsi3.eo)
                               build/default/production/_ext/2108356922/uart1.o (___udivsi3)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(umodsi3.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(umodsi3.eo)
                               build/default/production/_ext/1472/xprintf.o (___umodsi3)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fcompare.eo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(feqltle.eo) (__fcompare)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(floatundisf.eo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(floatunsisf.eo) (___floatundisf)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(malloc.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fcompare.eo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(feqltle.eo) (__fcompare)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatundisf.eo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatunsisf.eo) (___floatundisf)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(malloc.eo)
                               build/default/production/_ext/1468720089/hci_transport_picusb.o (_malloc)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memcmp.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memcmp.eo)
                               build/default/production/_ext/1468720089/hci.o (_memcmp)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memcpy.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memcpy.eo)
                               build/default/production/_ext/1468720089/hci.o (_memcpy)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memset.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memset.eo)
                               build/default/production/_ext/1468720089/hci_cmds.o (_memset)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strlen.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strlen.eo)
                               build/default/production/_ext/1468720089/hci_cmds.o (_strlen)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strncmp.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strncmp.eo)
                               build/default/production/_ext/1468720089/remote_device_db_memory.o (_strncmp)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strncpy.eo)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strncpy.eo)
                               build/default/production/_ext/1468720089/remote_device_db_memory.o (_strncpy)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(sbrk.eo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(malloc.eo) (_sbrk)
-c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(brk.elo)
-                              c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(sbrk.eo) (_brk)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(sbrk.eo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(malloc.eo) (_sbrk)
+c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(brk.elo)
+                              c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(sbrk.eo) (_brk)
 
 
-xc16-ld 1.41 (B)
+xc16-ld 1.60 (A)
 
 Default Code Model: Small
 Default Data Model: Large
@@ -144,11 +142,11 @@ section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200               0xae6          0x1059  (4185)
 .const                       0xce6               0x446           0x669  (1641)
-.text                       0x112c              0x68ae          0x9d05  (40197)
-.dinit                      0x79da               0x146           0x1e9  (489)
-.text                       0x7b20               0xd1e          0x13ad  (5037)
+.text                       0x112c              0x68b2          0x9d0b  (40203)
+.dinit                      0x79de               0x146           0x1e9  (489)
+.text                       0x7b24               0xd1e          0x13ad  (5037)
 
-                 Total "program" memory used (bytes):         0xc95d  (51549) 78%
+                 Total "program" memory used (bytes):         0xc963  (51555) 78%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x2000]
@@ -164,10 +162,10 @@ section                    address      alignment gaps    total length  (dec)
 .nbss                        0x8a0                   0             0x2  (2)
 .bss                         0x8a2                   0           0x5ca  (1482)
 .data                        0xe6c                   0            0xa0  (160)
-_04D797805e4b8049            0xf0c                   0            0x80  (128)
+_00000000057186E06020f357     0xf0c                   0            0x80  (128)
 .bss                         0xf8c                   0            0x38  (56)
 .bss                         0xfc4                   0            0x3c  (60)
-_04D08E405e4b7d74           0x1000                   0            0x10  (16)
+_00000000054068206020f357    0x1000                   0            0x10  (16)
 .bss                        0x1010                   0           0x132  (306)
 .bss                        0x1142                   0            0x2a  (42)
 .heap                       0x116c                   0           0x800  (2048)
@@ -184,7 +182,7 @@ stack                       0x196c                               0xe94  (3732)
 
                  Maximum dynamic memory (bytes):         0x1694  (5780)
 
-Note: Project is using a large data memory model when small data memory model is sufficient.
+Info: Project is using a large data memory model when small data memory model is sufficient.
 
 
 External Symbols in Data Memory (by address):
@@ -382,33 +380,33 @@ External Symbols in Program Memory (by address):
                   0x00129a                  __USB_FindDeviceLevelClientDriver
                   0x0013a2                  __USB_FindEndpoint
                   0x0013de                  _USBHostTransferIsComplete
-                  0x00143e                  _USBHostTerminateTransfer
-                  0x00145a                  _USBHostSetNAKTimeout
-                  0x001488                  _USBHostClearEndpointErrors
-                  0x0014ac                  __USB_FindServiceEndpoint
-                  0x001568                  __USB_FreeConfigMemory
-                  0x0015d0                  __USB_FreeMemory
-                  0x001614                  _USBHostInit
-                  0x001650                  __USB_InitControlRead
-                  0x001698                  __USB_InitControlWrite
-                  0x0016ea                  __USB_InitRead
-                  0x001742                  _USBHostRead
-                  0x0017a6                  __USB_InitWrite
-                  0x0017fe                  _USBHostWrite
-                  0x001862                  __USB_NotifyClients
-                  0x0018ea                  _USBHostShutdown
-                  0x001918                  _USBHostVbusEvent
-                  0x001940                  __USB_ParseConfigurationDescriptor
-                  0x001bb6                  _USBHostTasks
-                  0x00241e                  __USB_ResetDATA0
-                  0x00245c                  _USBHostIssueDeviceRequest
-                  0x002564                  __USB_SendToken
-                  0x00259c                  __USB_SetBDT
-                  0x00269e                  __USB_FindNextToken
-                  0x002e6a                  __USB_TransferInProgress
-                  0x002eb4                  _USBHostSetDeviceConfiguration
-                  0x003416                  build/default/production/_ext/1468720089/rfcomm.o:_rfcomm_multiplexer_timer_handler
-                  0x003c32                  _rfcomm_channel_packet_handler
+                  0x00143c                  _USBHostTerminateTransfer
+                  0x001458                  _USBHostSetNAKTimeout
+                  0x001484                  _USBHostClearEndpointErrors
+                  0x0014a8                  __USB_FindServiceEndpoint
+                  0x001564                  __USB_FreeConfigMemory
+                  0x0015cc                  __USB_FreeMemory
+                  0x001610                  _USBHostInit
+                  0x00164c                  __USB_InitControlRead
+                  0x001694                  __USB_InitControlWrite
+                  0x0016e6                  __USB_InitRead
+                  0x00173e                  _USBHostRead
+                  0x0017a2                  __USB_InitWrite
+                  0x0017fa                  _USBHostWrite
+                  0x00185e                  __USB_NotifyClients
+                  0x0018e6                  _USBHostShutdown
+                  0x001914                  _USBHostVbusEvent
+                  0x00193c                  __USB_ParseConfigurationDescriptor
+                  0x001bb2                  _USBHostTasks
+                  0x00241a                  __USB_ResetDATA0
+                  0x002458                  _USBHostIssueDeviceRequest
+                  0x002560                  __USB_SendToken
+                  0x002598                  __USB_SetBDT
+                  0x00269a                  __USB_FindNextToken
+                  0x002e66                  __USB_TransferInProgress
+                  0x002eb0                  _USBHostSetDeviceConfiguration
+                  0x00341a                  build/default/production/_ext/1468720089/rfcomm.o:_rfcomm_multiplexer_timer_handler
+                  0x003c38                  _rfcomm_channel_packet_handler
                   0x003d84                  _rfcomm_packet_handler
                   0x003e0e                  _rfcomm_init
                   0x003e18                  _rfcomm_register_packet_handler
@@ -430,114 +428,114 @@ External Symbols in Program Memory (by address):
                   0x0040c2                  _l2cap_init
                   0x0040d8                  _l2cap_register_packet_handler
                   0x0040dc                  _l2cap_dispatch
-                  0x00423c                  _l2cap_emit_credits
-                  0x004276                  _l2cap_block_new_credits
-                  0x00427c                  _l2cap_hand_out_credits
-                  0x0042b8                  _l2cap_get_channel_for_local_cid
-                  0x0042de                  _l2cap_can_send_packet_now
-                  0x0042f4                  _l2cap_get_remote_mtu_for_local_cid
-                  0x004302                  _l2cap_send_signaling_packet
-                  0x004336                  _l2cap_get_outgoing_buffer
-                  0x00433c                  _l2cap_send_prepared
-                  0x00439c                  _l2cap_send_prepared_connectionless
-                  0x0043e6                  _l2cap_send_internal
-                  0x004412                  _l2cap_send_connectionless
-                  0x004442                  _l2cap_run
-                  0x0046e2                  _l2cap_max_mtu
-                  0x00477c                  _l2cap_create_channel_internal
-                  0x0047ea                  _l2cap_disconnect_internal
-                  0x0047f8                  _l2cap_event_handler
-                  0x004944                  _l2cap_accept_connection_internal
-                  0x004952                  _l2cap_decline_connection_internal
-                  0x004968                  _l2cap_signaling_handle_configure_request
-                  0x0049aa                  _l2cap_signaling_handler_channel
-                  0x004a7c                  _l2cap_signaling_handler_dispatch
-                  0x004b0a                  _l2cap_acl_handler
-                  0x004b94                  build/default/production/_ext/1468720089/l2cap.o:_l2cap_packet_handler
-                  0x004bae                  _l2cap_register_service_internal
-                  0x004bfc                  _l2cap_unregister_service_internal
-                  0x004c22                  _l2cap_close_connection
-                  0x004c5c                  _l2cap_register_fixed_channel
-                  0x004c92                  build/default/production/_ext/1468720089/hci.o:_dummy_handler
-                  0x004d9a                  _connection_for_handle
-                  0x004dc0                  _hci_authentication_active_for_handle
-                  0x004dd8                  _hci_drop_link_key_for_bd_addr
-                  0x004de4                  _hci_number_outgoing_packets
-                  0x004df2                  _hci_number_free_acl_slots
-                  0x004e1c                  _hci_can_send_packet_now
-                  0x004e4c                  _hci_send_acl_packet
-                  0x004e90                  _hci_usable_acl_packet_types
-                  0x004e94                  _hci_get_outgoing_acl_packet_buffer
-                  0x004e98                  _hci_max_acl_data_packet_length
-                  0x004e9c                  _hci_register_packet_handler
-                  0x004ea0                  _hci_init
-                  0x004ee0                  _hci_emit_state
-                  0x004f06                  _hci_emit_connection_complete
-                  0x004f46                  _hci_send_cmd_packet
-                  0x005020                  _hci_send_cmd
-                  0x005034                  _hci_emit_disconnection_complete
-                  0x00506a                  _hci_emit_l2cap_check_timeout
-                  0x005094                  build/default/production/_ext/1468720089/hci.o:_hci_connection_timeout_handler
-                  0x0050d2                  _hci_emit_nr_connections_changed
-                  0x005116                  _hci_run
-                  0x005360                  _hci_connectable_control
-                  0x00541a                  _hci_emit_hci_open_failed
-                  0x00547e                  _hci_power_control
-                  0x005548                  _hci_close
-                  0x00556c                  _hci_emit_system_bluetooth_enabled
-                  0x005590                  _hci_emit_remote_name_cached
-                  0x0055d2                  _hci_emit_discoverable_enabled
-                  0x0055f6                  _hci_discoverable_control
-                  0x005872                  _packet_handler
-                  0x005894                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attributeID_search
-                  0x0058e6                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attribute_by_id
-                  0x0058f4                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_set_attribute_for_id
-                  0x00596e                  _sdp_normalize_uuid
-                  0x00597c                  _de_get_size_type
-                  0x005982                  _de_get_element_type
-                  0x005988                  _de_get_header_size
-                  0x00599a                  _de_get_data_size
-                  0x005a0c                  _de_get_len
-                  0x005a74                  build/default/production/_ext/1468720089/sdp_util.o:_de_traversal_dump_data
-                  0x005c14                  _de_get_normalized_uuid
-                  0x005c90                  _de_store_descriptor_with_len
-                  0x005cba                  _de_create_sequence
-                  0x005cc4                  _de_push_sequence
-                  0x005cde                  _de_pop_sequence
-                  0x005cfc                  _de_add_number
-                  0x005d60                  _de_add_data
-                  0x005dae                  _de_add_uuid128
-                  0x005de2                  _sdp_add_attribute
-                  0x005de4                  _sdp_attribute_list_constains_id
-                  0x005df8                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_get_filtered_size
-                  0x005e1a                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_filter_attributes
-                  0x005e90                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_append_attributes
-                  0x005eee                  _sdp_append_attributes_in_attributeIDList
-                  0x005f08                  _sdp_filter_attributes_in_attributeIDList
-                  0x005f30                  _spd_get_filtered_size
-                  0x005f44                  _sdp_get_attribute_value_for_attribute_id
-                  0x005f58                  _sdp_set_attribute_value_for_attribute_id
-                  0x005f70                  _sdp_record_contains_UUID128
-                  0x005f84                  _sdp_traversal_match_pattern
-                  0x005fae                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_contains_UUID128
-                  0x005fec                  _sdp_record_matches_service_search_pattern
-                  0x006004                  _de_dump_data_element
-                  0x006026                  _sdp_create_spp_service
-                  0x0061bc                  _InitializeSystem
-                  0x0061fc                  _USB_ApplicationEventHandler
-                  0x006292                  _getsum
-                  0x0062a2                  _conv_analog
-                  0x0062b2                  _clock
-                  0x0062b6                  build/default/production/_ext/1472/main.o:_packet_handler
-                  0x00642c                  _UART1PutBuf
-                  0x006460                  _PS3_stick_limit
-                  0x00647c                  _PS3_z_limit
-                  0x006490                  _Arduino_map
-                  0x0064d2                  _out_button_state
-                  0x006574                  _init_button_state
-                  0x00658c                  build/default/production/_ext/1472/main.o:_l2cap_interrupt_packet_handler
-                  0x0065f8                  build/default/production/_ext/1472/main.o:_l2cap_control_packet_handler
-                  0x006650                  _main
+                  0x00423e                  _l2cap_emit_credits
+                  0x004278                  _l2cap_block_new_credits
+                  0x00427e                  _l2cap_hand_out_credits
+                  0x0042ba                  _l2cap_get_channel_for_local_cid
+                  0x0042e0                  _l2cap_can_send_packet_now
+                  0x0042f6                  _l2cap_get_remote_mtu_for_local_cid
+                  0x004304                  _l2cap_send_signaling_packet
+                  0x004338                  _l2cap_get_outgoing_buffer
+                  0x00433e                  _l2cap_send_prepared
+                  0x00439e                  _l2cap_send_prepared_connectionless
+                  0x0043e8                  _l2cap_send_internal
+                  0x004414                  _l2cap_send_connectionless
+                  0x004444                  _l2cap_run
+                  0x0046e4                  _l2cap_max_mtu
+                  0x00477e                  _l2cap_create_channel_internal
+                  0x0047ec                  _l2cap_disconnect_internal
+                  0x0047fa                  _l2cap_event_handler
+                  0x004946                  _l2cap_accept_connection_internal
+                  0x004954                  _l2cap_decline_connection_internal
+                  0x00496a                  _l2cap_signaling_handle_configure_request
+                  0x0049ac                  _l2cap_signaling_handler_channel
+                  0x004a7e                  _l2cap_signaling_handler_dispatch
+                  0x004b0c                  _l2cap_acl_handler
+                  0x004b96                  build/default/production/_ext/1468720089/l2cap.o:_l2cap_packet_handler
+                  0x004bb0                  _l2cap_register_service_internal
+                  0x004bfe                  _l2cap_unregister_service_internal
+                  0x004c24                  _l2cap_close_connection
+                  0x004c5e                  _l2cap_register_fixed_channel
+                  0x004c94                  build/default/production/_ext/1468720089/hci.o:_dummy_handler
+                  0x004d9c                  _connection_for_handle
+                  0x004dc2                  _hci_authentication_active_for_handle
+                  0x004dda                  _hci_drop_link_key_for_bd_addr
+                  0x004de6                  _hci_number_outgoing_packets
+                  0x004df4                  _hci_number_free_acl_slots
+                  0x004e1e                  _hci_can_send_packet_now
+                  0x004e4e                  _hci_send_acl_packet
+                  0x004e92                  _hci_usable_acl_packet_types
+                  0x004e96                  _hci_get_outgoing_acl_packet_buffer
+                  0x004e9a                  _hci_max_acl_data_packet_length
+                  0x004e9e                  _hci_register_packet_handler
+                  0x004ea2                  _hci_init
+                  0x004ee2                  _hci_emit_state
+                  0x004f08                  _hci_emit_connection_complete
+                  0x004f48                  _hci_send_cmd_packet
+                  0x005022                  _hci_send_cmd
+                  0x005036                  _hci_emit_disconnection_complete
+                  0x00506c                  _hci_emit_l2cap_check_timeout
+                  0x005096                  build/default/production/_ext/1468720089/hci.o:_hci_connection_timeout_handler
+                  0x0050d4                  _hci_emit_nr_connections_changed
+                  0x005118                  _hci_run
+                  0x005362                  _hci_connectable_control
+                  0x00541c                  _hci_emit_hci_open_failed
+                  0x005480                  _hci_power_control
+                  0x00554a                  _hci_close
+                  0x00556e                  _hci_emit_system_bluetooth_enabled
+                  0x005592                  _hci_emit_remote_name_cached
+                  0x0055d4                  _hci_emit_discoverable_enabled
+                  0x0055f8                  _hci_discoverable_control
+                  0x005874                  _packet_handler
+                  0x005896                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attributeID_search
+                  0x0058e8                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attribute_by_id
+                  0x0058f6                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_set_attribute_for_id
+                  0x005970                  _sdp_normalize_uuid
+                  0x00597e                  _de_get_size_type
+                  0x005984                  _de_get_element_type
+                  0x00598a                  _de_get_header_size
+                  0x00599c                  _de_get_data_size
+                  0x005a0e                  _de_get_len
+                  0x005a76                  build/default/production/_ext/1468720089/sdp_util.o:_de_traversal_dump_data
+                  0x005c16                  _de_get_normalized_uuid
+                  0x005c92                  _de_store_descriptor_with_len
+                  0x005cbc                  _de_create_sequence
+                  0x005cc6                  _de_push_sequence
+                  0x005ce0                  _de_pop_sequence
+                  0x005cfe                  _de_add_number
+                  0x005d62                  _de_add_data
+                  0x005db0                  _de_add_uuid128
+                  0x005de4                  _sdp_add_attribute
+                  0x005de6                  _sdp_attribute_list_constains_id
+                  0x005dfa                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_get_filtered_size
+                  0x005e1c                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_filter_attributes
+                  0x005e92                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_append_attributes
+                  0x005ef0                  _sdp_append_attributes_in_attributeIDList
+                  0x005f0a                  _sdp_filter_attributes_in_attributeIDList
+                  0x005f32                  _spd_get_filtered_size
+                  0x005f46                  _sdp_get_attribute_value_for_attribute_id
+                  0x005f5a                  _sdp_set_attribute_value_for_attribute_id
+                  0x005f72                  _sdp_record_contains_UUID128
+                  0x005f86                  _sdp_traversal_match_pattern
+                  0x005fb0                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_contains_UUID128
+                  0x005fee                  _sdp_record_matches_service_search_pattern
+                  0x006006                  _de_dump_data_element
+                  0x006028                  _sdp_create_spp_service
+                  0x0061be                  _InitializeSystem
+                  0x0061fe                  _USB_ApplicationEventHandler
+                  0x006294                  _getsum
+                  0x0062a4                  _conv_analog
+                  0x0062b4                  _clock
+                  0x0062b8                  build/default/production/_ext/1472/main.o:_packet_handler
+                  0x00642e                  _UART1PutBuf
+                  0x006462                  _PS3_stick_limit
+                  0x00647e                  _PS3_z_limit
+                  0x006492                  _Arduino_map
+                  0x0064d4                  _out_button_state
+                  0x006576                  _init_button_state
+                  0x00658e                  build/default/production/_ext/1472/main.o:_l2cap_interrupt_packet_handler
+                  0x0065fa                  build/default/production/_ext/1472/main.o:_l2cap_control_packet_handler
+                  0x006652                  _main
                   0x00676c                  _hal_tick_init
                   0x006770                  _hal_tick_set_handler
                   0x006774                  _hal_tick_event
@@ -575,129 +573,129 @@ External Symbols in Program Memory (by address):
                   0x007668                  _prog_flashmem_row2
                   0x0076e8                  _read_flashmem
                   0x007704                  _save_link_keys
-                  0x007762                  _load_link_keys
-                  0x0077b4                  _print_link_keys
-                  0x0077b6                  _read_local_bluetooth_address
-                  0x0077de                  _Check_saved_local_bluetooth_address
-                  0x007814                  _save_local_bluetooth_address
-                  0x007836                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_open
-                  0x007838                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_close
-                  0x00783a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_persistent_rfcomm_channel
-                  0x0078c2                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_name
-                  0x0078de                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_name
-                  0x00790a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_name
-                  0x007952                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_link_key
-                  0x00797e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_link_key
-                  0x00799a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_link_key
-                  0x007b20                  _hci_create_cmd_internal
-                  0x007c50                  _hci_create_cmd
-                  0x007c5c                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_register_packet_handler
-                  0x007c60                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_get_transport_name
-                  0x007c64                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_dummy_handler
-                  0x007cbc                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_send_packet
-                  0x007cdc                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_close
-                  0x007ce4                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_open
-                  0x007cf6                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_process_ds
-                  0x007d32                  _event_bluetooth_rxEvent_done
-                  0x007d4e                  _event_bluetooth_rxAcl_done
-                  0x007d6a                  _hci_transport_picusb_instance
-                  0x007e34                  _dev_logicool_f510
-                  0x007f36                  _dev_dragonrise
-                  0x008038                  _dev_logicool_f710
-                  0x008134                  _dev_elecom_u3312s
-                  0x008230                  _dev_elecom_u3412s
-                  0x00829e                  _bt_store_16
-                  0x0082a8                  _bt_store_32
-                  0x0082c6                  _net_store_16
-                  0x0082d0                  _net_store_32
-                  0x0082f0                  _bt_flip_addr
-                  0x00830a                  _hexdump
-                  0x008318                  _printUUID
-                  0x00831a                  _bd_addr_to_str
-                  0x00834a                  _print_bd_addr
-                  0x00834c                  _crc8
-                  0x008366                  _crc8_check
-                  0x008382                  _crc8_calc
-                  0x008388                  _embedded_add_timer
-                  0x0083a8                  _embedded_dump_timer
-                  0x0083aa                  build/default/production/_ext/1468720089/run_loop_embedded.o:_embedded_tick_handler
-                  0x0083bc                  _embedded_init
-                  0x0083cc                  _embedded_execute
-                  0x008424                  _embedded_remove_timer
-                  0x00842c                  _embedded_remove_data_source
-                  0x008434                  _embedded_add_data_source
-                  0x00843c                  _embedded_trigger
-                  0x008442                  _embedded_get_ticks
-                  0x008448                  _embedded_ticks_for_ms
-                  0x00844a                  _run_loop_set_timer
-                  0x00846c                  _btstack_memory_hci_connection_get
-                  0x008472                  _btstack_memory_hci_connection_free
-                  0x00847a                  _btstack_memory_l2cap_service_get
-                  0x008480                  _btstack_memory_l2cap_service_free
-                  0x008488                  _btstack_memory_l2cap_channel_get
-                  0x00848e                  _btstack_memory_l2cap_channel_free
-                  0x008496                  _btstack_memory_rfcomm_multiplexer_get
-                  0x00849c                  _btstack_memory_rfcomm_multiplexer_free
-                  0x0084a4                  _btstack_memory_rfcomm_service_get
-                  0x0084aa                  _btstack_memory_rfcomm_service_free
-                  0x0084b2                  _btstack_memory_rfcomm_channel_get
-                  0x0084b8                  _btstack_memory_rfcomm_channel_free
-                  0x0084c0                  _btstack_memory_db_mem_device_name_get
-                  0x0084c6                  _btstack_memory_db_mem_device_name_free
-                  0x0084ce                  _btstack_memory_db_mem_device_link_key_get
-                  0x0084d4                  _btstack_memory_db_mem_device_link_key_free
-                  0x0084dc                  _btstack_memory_db_mem_service_get
-                  0x0084e2                  _btstack_memory_db_mem_service_free
-                  0x0084ea                  _btstack_memory_init
-                  0x008546                  _l2cap_next_sig_id
-                  0x00855a                  _l2cap_next_local_cid
-                  0x008562                  _l2cap_create_signaling_internal
-                  0x0085f4                  _UART1GetBaudError
-                  0x0085f8                  _UART1Init
-                  0x008654                  _UART1PutChar
-                  0x008674                  _UART1GetChar
-                  0x00869a                  _UART1GetBufferSpace
-                  0x0086a2                  _linked_list_empty
-                  0x0086ae                  _linked_list_get_last_item
-                  0x0086c6                  _linked_list_add
-                  0x0086e4                  _linked_list_add_tail
-                  0x0086f8                  _linked_list_remove
-                  0x008722                  _linked_item_set_user
-                  0x008728                  _linked_item_get_user
-                  0x00872c                  _Delay10us
-                  0x008776                  _DelayMs
-                  0x0087ae                  _memory_pool_get
-                  0x0087be                  _memory_pool_free
-                  0x0087c4                  _memory_pool_create
-                  0x0087f0                  _run_loop_assert
-                  0x0087f2                  _run_loop_add_data_source
-                  0x0087fa                  _run_loop_remove_data_source
-                  0x008802                  _run_loop_add_timer
-                  0x00880a                  _run_loop_remove_timer
-                  0x008812                  _run_loop_timer_dump
-                  0x00881a                  _run_loop_execute
-                  0x008822                  _run_loop_init
-                  0x008832                  _hci_dump_open
-                  0x008834                  _hci_dump_packet
-                  0x008836                  _hci_dump_log
-                  0x00883c                  _hci_dump_close
+                  0x007764                  _load_link_keys
+                  0x0077b6                  _print_link_keys
+                  0x0077b8                  _read_local_bluetooth_address
+                  0x0077e0                  _Check_saved_local_bluetooth_address
+                  0x007816                  _save_local_bluetooth_address
+                  0x00783a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_open
+                  0x00783c                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_close
+                  0x00783e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_persistent_rfcomm_channel
+                  0x0078c6                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_name
+                  0x0078e2                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_name
+                  0x00790e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_name
+                  0x007956                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_link_key
+                  0x007982                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_link_key
+                  0x00799e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_link_key
+                  0x007b24                  _hci_create_cmd_internal
+                  0x007c54                  _hci_create_cmd
+                  0x007c60                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_register_packet_handler
+                  0x007c64                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_get_transport_name
+                  0x007c68                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_dummy_handler
+                  0x007cc0                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_send_packet
+                  0x007ce0                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_close
+                  0x007ce8                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_open
+                  0x007cfa                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_process_ds
+                  0x007d36                  _event_bluetooth_rxEvent_done
+                  0x007d52                  _event_bluetooth_rxAcl_done
+                  0x007d6e                  _hci_transport_picusb_instance
+                  0x007e38                  _dev_logicool_f510
+                  0x007f3a                  _dev_dragonrise
+                  0x00803c                  _dev_logicool_f710
+                  0x008138                  _dev_elecom_u3312s
+                  0x008234                  _dev_elecom_u3412s
+                  0x0082a2                  _bt_store_16
+                  0x0082ac                  _bt_store_32
+                  0x0082ca                  _net_store_16
+                  0x0082d4                  _net_store_32
+                  0x0082f4                  _bt_flip_addr
+                  0x00830e                  _hexdump
+                  0x00831c                  _printUUID
+                  0x00831e                  _bd_addr_to_str
+                  0x00834e                  _print_bd_addr
+                  0x008350                  _crc8
+                  0x00836a                  _crc8_check
+                  0x008386                  _crc8_calc
+                  0x00838c                  _embedded_add_timer
+                  0x0083ac                  _embedded_dump_timer
+                  0x0083ae                  build/default/production/_ext/1468720089/run_loop_embedded.o:_embedded_tick_handler
+                  0x0083c0                  _embedded_init
+                  0x0083d0                  _embedded_execute
+                  0x008428                  _embedded_remove_timer
+                  0x008430                  _embedded_remove_data_source
+                  0x008438                  _embedded_add_data_source
+                  0x008440                  _embedded_trigger
+                  0x008446                  _embedded_get_ticks
+                  0x00844c                  _embedded_ticks_for_ms
+                  0x00844e                  _run_loop_set_timer
+                  0x008470                  _btstack_memory_hci_connection_get
+                  0x008476                  _btstack_memory_hci_connection_free
+                  0x00847e                  _btstack_memory_l2cap_service_get
+                  0x008484                  _btstack_memory_l2cap_service_free
+                  0x00848c                  _btstack_memory_l2cap_channel_get
+                  0x008492                  _btstack_memory_l2cap_channel_free
+                  0x00849a                  _btstack_memory_rfcomm_multiplexer_get
+                  0x0084a0                  _btstack_memory_rfcomm_multiplexer_free
+                  0x0084a8                  _btstack_memory_rfcomm_service_get
+                  0x0084ae                  _btstack_memory_rfcomm_service_free
+                  0x0084b6                  _btstack_memory_rfcomm_channel_get
+                  0x0084bc                  _btstack_memory_rfcomm_channel_free
+                  0x0084c4                  _btstack_memory_db_mem_device_name_get
+                  0x0084ca                  _btstack_memory_db_mem_device_name_free
+                  0x0084d2                  _btstack_memory_db_mem_device_link_key_get
+                  0x0084d8                  _btstack_memory_db_mem_device_link_key_free
+                  0x0084e0                  _btstack_memory_db_mem_service_get
+                  0x0084e6                  _btstack_memory_db_mem_service_free
+                  0x0084ee                  _btstack_memory_init
+                  0x00854a                  _l2cap_next_sig_id
+                  0x00855e                  _l2cap_next_local_cid
+                  0x008566                  _l2cap_create_signaling_internal
+                  0x0085f8                  _UART1GetBaudError
+                  0x0085fc                  _UART1Init
+                  0x008658                  _UART1PutChar
+                  0x008678                  _UART1GetChar
+                  0x00869e                  _UART1GetBufferSpace
+                  0x0086a6                  _linked_list_empty
+                  0x0086b2                  _linked_list_get_last_item
+                  0x0086ca                  _linked_list_add
+                  0x0086e8                  _linked_list_add_tail
+                  0x0086fc                  _linked_list_remove
+                  0x008726                  _linked_item_set_user
+                  0x00872c                  _linked_item_get_user
+                  0x008730                  _Delay10us
+                  0x00877a                  _DelayMs
+                  0x0087b2                  _memory_pool_get
+                  0x0087c2                  _memory_pool_free
+                  0x0087c8                  _memory_pool_create
+                  0x0087f4                  _run_loop_assert
+                  0x0087f6                  _run_loop_add_data_source
+                  0x0087fe                  _run_loop_remove_data_source
+                  0x008806                  _run_loop_add_timer
+                  0x00880e                  _run_loop_remove_timer
+                  0x008816                  _run_loop_timer_dump
+                  0x00881e                  _run_loop_execute
+                  0x008826                  _run_loop_init
+                  0x008836                  _hci_dump_open
+                  0x008838                  _hci_dump_packet
+                  0x00883a                  _hci_dump_log
+                  0x008840                  _hci_dump_close
 
 External Symbols in Program Memory (by name):
 
-                  0x006490                  _Arduino_map
-                  0x0077de                  _Check_saved_local_bluetooth_address
-                  0x00872c                  _Delay10us
-                  0x008776                  _DelayMs
-                  0x0061bc                  _InitializeSystem
+                  0x006492                  _Arduino_map
+                  0x0077e0                  _Check_saved_local_bluetooth_address
+                  0x008730                  _Delay10us
+                  0x00877a                  _DelayMs
+                  0x0061be                  _InitializeSystem
                   0x00106e                  _OUTPUT_REPORT_BUFFER
-                  0x006460                  _PS3_stick_limit
-                  0x00647c                  _PS3_z_limit
-                  0x0085f4                  _UART1GetBaudError
-                  0x00869a                  _UART1GetBufferSpace
-                  0x008674                  _UART1GetChar
-                  0x0085f8                  _UART1Init
-                  0x00642c                  _UART1PutBuf
-                  0x008654                  _UART1PutChar
+                  0x006462                  _PS3_stick_limit
+                  0x00647e                  _PS3_z_limit
+                  0x0085f8                  _UART1GetBaudError
+                  0x00869e                  _UART1GetBufferSpace
+                  0x008678                  _UART1GetChar
+                  0x0085fc                  _UART1Init
+                  0x00642e                  _UART1PutBuf
+                  0x008658                  _UART1PutChar
                   0x007458                  _USBHostBluetoothEventHandler
                   0x007516                  _USBHostBluetoothGetDeviceAddress
                   0x007414                  _USBHostBluetoothInit
@@ -705,24 +703,24 @@ External Symbols in Program Memory (by name):
                   0x007546                  _USBHostBluetoothReadEvent
                   0x0075ba                  _USBHostBluetoothWriteAcl
                   0x00760e                  _USBHostBluetoothWriteCmd
-                  0x001488                  _USBHostClearEndpointErrors
+                  0x001484                  _USBHostClearEndpointErrors
                   0x00112c                  _USBHostDeviceSpecificClientDriver
                   0x001134                  _USBHostDeviceStatus
-                  0x001614                  _USBHostInit
-                  0x00245c                  _USBHostIssueDeviceRequest
-                  0x001742                  _USBHostRead
+                  0x001610                  _USBHostInit
+                  0x002458                  _USBHostIssueDeviceRequest
+                  0x00173e                  _USBHostRead
                   0x00116e                  _USBHostResetDevice
                   0x001188                  _USBHostResumeDevice
-                  0x002eb4                  _USBHostSetDeviceConfiguration
-                  0x00145a                  _USBHostSetNAKTimeout
-                  0x0018ea                  _USBHostShutdown
+                  0x002eb0                  _USBHostSetDeviceConfiguration
+                  0x001458                  _USBHostSetNAKTimeout
+                  0x0018e6                  _USBHostShutdown
                   0x0011a2                  _USBHostSuspendDevice
-                  0x001bb6                  _USBHostTasks
-                  0x00143e                  _USBHostTerminateTransfer
+                  0x001bb2                  _USBHostTasks
+                  0x00143c                  _USBHostTerminateTransfer
                   0x0013de                  _USBHostTransferIsComplete
-                  0x001918                  _USBHostVbusEvent
-                  0x0017fe                  _USBHostWrite
-                  0x0061fc                  _USB_ApplicationEventHandler
+                  0x001914                  _USBHostVbusEvent
+                  0x0017fa                  _USBHostWrite
+                  0x0061fe                  _USB_ApplicationEventHandler
                   0x00078a                  __DefaultInterrupt
                   0x000380                  __U1RXInterrupt
                   0x0003b4                  __U1TXInterrupt
@@ -731,20 +729,20 @@ External Symbols in Program Memory (by name):
                   0x0011f4                  __USB_FindClassDriver
                   0x00129a                  __USB_FindDeviceLevelClientDriver
                   0x0013a2                  __USB_FindEndpoint
-                  0x00269e                  __USB_FindNextToken
-                  0x0014ac                  __USB_FindServiceEndpoint
-                  0x001568                  __USB_FreeConfigMemory
-                  0x0015d0                  __USB_FreeMemory
-                  0x001650                  __USB_InitControlRead
-                  0x001698                  __USB_InitControlWrite
-                  0x0016ea                  __USB_InitRead
-                  0x0017a6                  __USB_InitWrite
-                  0x001862                  __USB_NotifyClients
-                  0x001940                  __USB_ParseConfigurationDescriptor
-                  0x00241e                  __USB_ResetDATA0
-                  0x002564                  __USB_SendToken
-                  0x00259c                  __USB_SetBDT
-                  0x002e6a                  __USB_TransferInProgress
+                  0x00269a                  __USB_FindNextToken
+                  0x0014a8                  __USB_FindServiceEndpoint
+                  0x001564                  __USB_FreeConfigMemory
+                  0x0015cc                  __USB_FreeMemory
+                  0x00164c                  __USB_InitControlRead
+                  0x001694                  __USB_InitControlWrite
+                  0x0016e6                  __USB_InitRead
+                  0x0017a2                  __USB_InitWrite
+                  0x00185e                  __USB_NotifyClients
+                  0x00193c                  __USB_ParseConfigurationDescriptor
+                  0x00241a                  __USB_ResetDATA0
+                  0x002560                  __USB_SendToken
+                  0x002598                  __USB_SetBDT
+                  0x002e66                  __USB_TransferInProgress
                   0x0007d4                  ___addsf3
                   0x00088e                  ___divsf3
                   0x000912                  ___eqsf2
@@ -768,122 +766,122 @@ External Symbols in Program Memory (by name):
                   0x0009d2                  __funpack2
                   0x00023c                  __psv_init
                   0x000200                  __resetPRI
-                  0x00831a                  _bd_addr_to_str
-                  0x0082f0                  _bt_flip_addr
-                  0x00829e                  _bt_store_16
-                  0x0082a8                  _bt_store_32
+                  0x00831e                  _bd_addr_to_str
+                  0x0082f4                  _bt_flip_addr
+                  0x0082a2                  _bt_store_16
+                  0x0082ac                  _bt_store_32
                   0x000df2                  _btstack_get_state
                   0x000e02                  _btstack_get_system_bluetooth_enabled
                   0x000dfe                  _btstack_get_version
-                  0x0084d4                  _btstack_memory_db_mem_device_link_key_free
-                  0x0084ce                  _btstack_memory_db_mem_device_link_key_get
-                  0x0084c6                  _btstack_memory_db_mem_device_name_free
-                  0x0084c0                  _btstack_memory_db_mem_device_name_get
-                  0x0084e2                  _btstack_memory_db_mem_service_free
-                  0x0084dc                  _btstack_memory_db_mem_service_get
-                  0x008472                  _btstack_memory_hci_connection_free
-                  0x00846c                  _btstack_memory_hci_connection_get
-                  0x0084ea                  _btstack_memory_init
-                  0x00848e                  _btstack_memory_l2cap_channel_free
-                  0x008488                  _btstack_memory_l2cap_channel_get
-                  0x008480                  _btstack_memory_l2cap_service_free
-                  0x00847a                  _btstack_memory_l2cap_service_get
-                  0x0084b8                  _btstack_memory_rfcomm_channel_free
-                  0x0084b2                  _btstack_memory_rfcomm_channel_get
-                  0x00849c                  _btstack_memory_rfcomm_multiplexer_free
-                  0x008496                  _btstack_memory_rfcomm_multiplexer_get
-                  0x0084aa                  _btstack_memory_rfcomm_service_free
-                  0x0084a4                  _btstack_memory_rfcomm_service_get
+                  0x0084d8                  _btstack_memory_db_mem_device_link_key_free
+                  0x0084d2                  _btstack_memory_db_mem_device_link_key_get
+                  0x0084ca                  _btstack_memory_db_mem_device_name_free
+                  0x0084c4                  _btstack_memory_db_mem_device_name_get
+                  0x0084e6                  _btstack_memory_db_mem_service_free
+                  0x0084e0                  _btstack_memory_db_mem_service_get
+                  0x008476                  _btstack_memory_hci_connection_free
+                  0x008470                  _btstack_memory_hci_connection_get
+                  0x0084ee                  _btstack_memory_init
+                  0x008492                  _btstack_memory_l2cap_channel_free
+                  0x00848c                  _btstack_memory_l2cap_channel_get
+                  0x008484                  _btstack_memory_l2cap_service_free
+                  0x00847e                  _btstack_memory_l2cap_service_get
+                  0x0084bc                  _btstack_memory_rfcomm_channel_free
+                  0x0084b6                  _btstack_memory_rfcomm_channel_get
+                  0x0084a0                  _btstack_memory_rfcomm_multiplexer_free
+                  0x00849a                  _btstack_memory_rfcomm_multiplexer_get
+                  0x0084ae                  _btstack_memory_rfcomm_service_free
+                  0x0084a8                  _btstack_memory_rfcomm_service_get
                   0x000dfa                  _btstack_set_acl_capture_mode
                   0x000e0e                  _btstack_set_bluetooth_enabled
                   0x000e0a                  _btstack_set_discoverable
                   0x000df6                  _btstack_set_power_mode
                   0x000e06                  _btstack_set_system_bluetooth_enabled
-                  0x0062b2                  _clock
-                  0x004d9a                  _connection_for_handle
-                  0x0062a2                  _conv_analog
-                  0x00834c                  _crc8
-                  0x008382                  _crc8_calc
-                  0x008366                  _crc8_check
-                  0x005d60                  _de_add_data
-                  0x005cfc                  _de_add_number
-                  0x005dae                  _de_add_uuid128
-                  0x005cba                  _de_create_sequence
-                  0x006004                  _de_dump_data_element
-                  0x00599a                  _de_get_data_size
-                  0x005982                  _de_get_element_type
-                  0x005988                  _de_get_header_size
-                  0x005a0c                  _de_get_len
-                  0x005c14                  _de_get_normalized_uuid
-                  0x00597c                  _de_get_size_type
-                  0x005cde                  _de_pop_sequence
-                  0x005cc4                  _de_push_sequence
-                  0x005c90                  _de_store_descriptor_with_len
-                  0x007f36                  _dev_dragonrise
-                  0x008134                  _dev_elecom_u3312s
-                  0x008230                  _dev_elecom_u3412s
-                  0x007e34                  _dev_logicool_f510
-                  0x008038                  _dev_logicool_f710
+                  0x0062b4                  _clock
+                  0x004d9c                  _connection_for_handle
+                  0x0062a4                  _conv_analog
+                  0x008350                  _crc8
+                  0x008386                  _crc8_calc
+                  0x00836a                  _crc8_check
+                  0x005d62                  _de_add_data
+                  0x005cfe                  _de_add_number
+                  0x005db0                  _de_add_uuid128
+                  0x005cbc                  _de_create_sequence
+                  0x006006                  _de_dump_data_element
+                  0x00599c                  _de_get_data_size
+                  0x005984                  _de_get_element_type
+                  0x00598a                  _de_get_header_size
+                  0x005a0e                  _de_get_len
+                  0x005c16                  _de_get_normalized_uuid
+                  0x00597e                  _de_get_size_type
+                  0x005ce0                  _de_pop_sequence
+                  0x005cc6                  _de_push_sequence
+                  0x005c92                  _de_store_descriptor_with_len
+                  0x007f3a                  _dev_dragonrise
+                  0x008138                  _dev_elecom_u3312s
+                  0x008234                  _dev_elecom_u3412s
+                  0x007e38                  _dev_logicool_f510
+                  0x00803c                  _dev_logicool_f710
                   0x00731a                  _dev_sony_ps3
-                  0x008434                  _embedded_add_data_source
-                  0x008388                  _embedded_add_timer
-                  0x0083a8                  _embedded_dump_timer
-                  0x0083cc                  _embedded_execute
-                  0x008442                  _embedded_get_ticks
-                  0x0083bc                  _embedded_init
-                  0x00842c                  _embedded_remove_data_source
-                  0x008424                  _embedded_remove_timer
-                  0x008448                  _embedded_ticks_for_ms
-                  0x00843c                  _embedded_trigger
+                  0x008438                  _embedded_add_data_source
+                  0x00838c                  _embedded_add_timer
+                  0x0083ac                  _embedded_dump_timer
+                  0x0083d0                  _embedded_execute
+                  0x008446                  _embedded_get_ticks
+                  0x0083c0                  _embedded_init
+                  0x008430                  _embedded_remove_data_source
+                  0x008428                  _embedded_remove_timer
+                  0x00844c                  _embedded_ticks_for_ms
+                  0x008440                  _embedded_trigger
                   0x007644                  _erase_flashmem
-                  0x007d4e                  _event_bluetooth_rxAcl_done
-                  0x007d32                  _event_bluetooth_rxEvent_done
+                  0x007d52                  _event_bluetooth_rxAcl_done
+                  0x007d36                  _event_bluetooth_rxEvent_done
                   0x000c36                  _free
-                  0x006292                  _getsum
+                  0x006294                  _getsum
                   0x006774                  _hal_tick_event
                   0x00676c                  _hal_tick_init
                   0x006770                  _hal_tick_set_handler
                   0x000d12                  _hci_accept_connection_request
-                  0x004dc0                  _hci_authentication_active_for_handle
+                  0x004dc2                  _hci_authentication_active_for_handle
                   0x000d34                  _hci_authentication_requested
-                  0x004e1c                  _hci_can_send_packet_now
+                  0x004e1e                  _hci_can_send_packet_now
                   0x000d3c                  _hci_change_connection_link_key
-                  0x005548                  _hci_close
-                  0x005360                  _hci_connectable_control
-                  0x007c50                  _hci_create_cmd
-                  0x007b20                  _hci_create_cmd_internal
+                  0x00554a                  _hci_close
+                  0x005362                  _hci_connectable_control
+                  0x007c54                  _hci_create_cmd
+                  0x007b24                  _hci_create_cmd_internal
                   0x000cfc                  _hci_create_connection
                   0x000d0a                  _hci_create_connection_cancel
                   0x000d90                  _hci_delete_stored_link_key
                   0x000d04                  _hci_disconnect
-                  0x0055f6                  _hci_discoverable_control
-                  0x004dd8                  _hci_drop_link_key_for_bd_addr
-                  0x00883c                  _hci_dump_close
-                  0x008836                  _hci_dump_log
-                  0x008832                  _hci_dump_open
-                  0x008834                  _hci_dump_packet
-                  0x004f06                  _hci_emit_connection_complete
-                  0x005034                  _hci_emit_disconnection_complete
-                  0x0055d2                  _hci_emit_discoverable_enabled
-                  0x00541a                  _hci_emit_hci_open_failed
-                  0x00506a                  _hci_emit_l2cap_check_timeout
-                  0x0050d2                  _hci_emit_nr_connections_changed
-                  0x005590                  _hci_emit_remote_name_cached
-                  0x004ee0                  _hci_emit_state
-                  0x00556c                  _hci_emit_system_bluetooth_enabled
-                  0x004e94                  _hci_get_outgoing_acl_packet_buffer
+                  0x0055f8                  _hci_discoverable_control
+                  0x004dda                  _hci_drop_link_key_for_bd_addr
+                  0x008840                  _hci_dump_close
+                  0x00883a                  _hci_dump_log
+                  0x008836                  _hci_dump_open
+                  0x008838                  _hci_dump_packet
+                  0x004f08                  _hci_emit_connection_complete
+                  0x005036                  _hci_emit_disconnection_complete
+                  0x0055d4                  _hci_emit_discoverable_enabled
+                  0x00541c                  _hci_emit_hci_open_failed
+                  0x00506c                  _hci_emit_l2cap_check_timeout
+                  0x0050d4                  _hci_emit_nr_connections_changed
+                  0x005592                  _hci_emit_remote_name_cached
+                  0x004ee2                  _hci_emit_state
+                  0x00556e                  _hci_emit_system_bluetooth_enabled
+                  0x004e96                  _hci_get_outgoing_acl_packet_buffer
                   0x000dbe                  _hci_host_buffer_size
-                  0x004ea0                  _hci_init
+                  0x004ea2                  _hci_init
                   0x000cea                  _hci_inquiry
                   0x000cf0                  _hci_inquiry_cancel
                   0x000d22                  _hci_link_key_request_negative_reply
                   0x000d1e                  _hci_link_key_request_reply
-                  0x004e98                  _hci_max_acl_data_packet_length
-                  0x004df2                  _hci_number_free_acl_slots
-                  0x004de4                  _hci_number_outgoing_packets
+                  0x004e9a                  _hci_max_acl_data_packet_length
+                  0x004df4                  _hci_number_free_acl_slots
+                  0x004de6                  _hci_number_outgoing_packets
                   0x000d2e                  _hci_pin_code_request_negative_reply
                   0x000d2a                  _hci_pin_code_request_reply
-                  0x00547e                  _hci_power_control
+                  0x005480                  _hci_power_control
                   0x000d60                  _hci_qos_setup
                   0x000dee                  _hci_read_bd_addr
                   0x000dea                  _hci_read_buffer_size
@@ -893,22 +891,22 @@ External Symbols in Program Memory (by name):
                   0x000de6                  _hci_read_local_supported_features
                   0x000db0                  _hci_read_num_broadcast_retransmissions
                   0x000d84                  _hci_read_stored_link_key
-                  0x004e9c                  _hci_register_packet_handler
+                  0x004e9e                  _hci_register_packet_handler
                   0x000d16                  _hci_reject_connection_request
                   0x000d46                  _hci_remote_name_request
                   0x000d4a                  _hci_remote_name_request_cancel
                   0x000d80                  _hci_reset
                   0x000d64                  _hci_role_discovery
-                  0x005116                  _hci_run
-                  0x004e4c                  _hci_send_acl_packet
-                  0x005020                  _hci_send_cmd
-                  0x004f46                  _hci_send_cmd_packet
+                  0x005118                  _hci_run
+                  0x004e4e                  _hci_send_acl_packet
+                  0x005022                  _hci_send_cmd
+                  0x004f48                  _hci_send_cmd_packet
                   0x000d38                  _hci_set_connection_encryption
                   0x000d7c                  _hci_set_event_mask
                   0x000d54                  _hci_sniff_mode
                   0x000d68                  _hci_switch_role_command
-                  0x007d6a                  _hci_transport_picusb_instance
-                  0x004e90                  _hci_usable_acl_packet_types
+                  0x007d6e                  _hci_transport_picusb_instance
+                  0x004e92                  _hci_usable_acl_packet_types
                   0x000da6                  _hci_write_authentication_enable
                   0x000dac                  _hci_write_class_of_device
                   0x000dd2                  _hci_write_extended_inquiry_response
@@ -922,81 +920,81 @@ External Symbols in Program Memory (by name):
                   0x000da2                  _hci_write_scan_enable
                   0x000dd6                  _hci_write_simple_pairing_mode
                   0x000d8c                  _hci_write_stored_link_key
-                  0x00830a                  _hexdump
-                  0x006574                  _init_button_state
+                  0x00830e                  _hexdump
+                  0x006576                  _init_button_state
                   0x004028                  _is_rfcomm_send_avail
                   0x000e36                  _l2cap_accept_connection
-                  0x004944                  _l2cap_accept_connection_internal
-                  0x004b0a                  _l2cap_acl_handler
-                  0x004276                  _l2cap_block_new_credits
-                  0x0042de                  _l2cap_can_send_packet_now
-                  0x004c22                  _l2cap_close_connection
+                  0x004946                  _l2cap_accept_connection_internal
+                  0x004b0c                  _l2cap_acl_handler
+                  0x004278                  _l2cap_block_new_credits
+                  0x0042e0                  _l2cap_can_send_packet_now
+                  0x004c24                  _l2cap_close_connection
                   0x000e16                  _l2cap_create_channel
-                  0x00477c                  _l2cap_create_channel_internal
+                  0x00477e                  _l2cap_create_channel_internal
                   0x000e1e                  _l2cap_create_channel_mtu
-                  0x008562                  _l2cap_create_signaling_internal
+                  0x008566                  _l2cap_create_signaling_internal
                   0x000e3a                  _l2cap_decline_connection
-                  0x004952                  _l2cap_decline_connection_internal
+                  0x004954                  _l2cap_decline_connection_internal
                   0x000e26                  _l2cap_disconnect
-                  0x0047ea                  _l2cap_disconnect_internal
+                  0x0047ec                  _l2cap_disconnect_internal
                   0x0040dc                  _l2cap_dispatch
-                  0x00423c                  _l2cap_emit_credits
-                  0x0047f8                  _l2cap_event_handler
-                  0x0042b8                  _l2cap_get_channel_for_local_cid
-                  0x004336                  _l2cap_get_outgoing_buffer
-                  0x0042f4                  _l2cap_get_remote_mtu_for_local_cid
-                  0x00427c                  _l2cap_hand_out_credits
+                  0x00423e                  _l2cap_emit_credits
+                  0x0047fa                  _l2cap_event_handler
+                  0x0042ba                  _l2cap_get_channel_for_local_cid
+                  0x004338                  _l2cap_get_outgoing_buffer
+                  0x0042f6                  _l2cap_get_remote_mtu_for_local_cid
+                  0x00427e                  _l2cap_hand_out_credits
                   0x0040c2                  _l2cap_init
-                  0x0046e2                  _l2cap_max_mtu
-                  0x00855a                  _l2cap_next_local_cid
-                  0x008546                  _l2cap_next_sig_id
-                  0x004c5c                  _l2cap_register_fixed_channel
+                  0x0046e4                  _l2cap_max_mtu
+                  0x00855e                  _l2cap_next_local_cid
+                  0x00854a                  _l2cap_next_sig_id
+                  0x004c5e                  _l2cap_register_fixed_channel
                   0x0040d8                  _l2cap_register_packet_handler
                   0x000e2e                  _l2cap_register_service
-                  0x004bae                  _l2cap_register_service_internal
-                  0x004442                  _l2cap_run
-                  0x004412                  _l2cap_send_connectionless
-                  0x0043e6                  _l2cap_send_internal
-                  0x00433c                  _l2cap_send_prepared
-                  0x00439c                  _l2cap_send_prepared_connectionless
-                  0x004302                  _l2cap_send_signaling_packet
-                  0x004968                  _l2cap_signaling_handle_configure_request
-                  0x0049aa                  _l2cap_signaling_handler_channel
-                  0x004a7c                  _l2cap_signaling_handler_dispatch
+                  0x004bb0                  _l2cap_register_service_internal
+                  0x004444                  _l2cap_run
+                  0x004414                  _l2cap_send_connectionless
+                  0x0043e8                  _l2cap_send_internal
+                  0x00433e                  _l2cap_send_prepared
+                  0x00439e                  _l2cap_send_prepared_connectionless
+                  0x004304                  _l2cap_send_signaling_packet
+                  0x00496a                  _l2cap_signaling_handle_configure_request
+                  0x0049ac                  _l2cap_signaling_handler_channel
+                  0x004a7e                  _l2cap_signaling_handler_dispatch
                   0x000e32                  _l2cap_unregister_service
-                  0x004bfc                  _l2cap_unregister_service_internal
-                  0x008728                  _linked_item_get_user
-                  0x008722                  _linked_item_set_user
-                  0x0086c6                  _linked_list_add
-                  0x0086e4                  _linked_list_add_tail
-                  0x0086a2                  _linked_list_empty
-                  0x0086ae                  _linked_list_get_last_item
-                  0x0086f8                  _linked_list_remove
-                  0x007762                  _load_link_keys
-                  0x006650                  _main
+                  0x004bfe                  _l2cap_unregister_service_internal
+                  0x00872c                  _linked_item_get_user
+                  0x008726                  _linked_item_set_user
+                  0x0086ca                  _linked_list_add
+                  0x0086e8                  _linked_list_add_tail
+                  0x0086a6                  _linked_list_empty
+                  0x0086b2                  _linked_list_get_last_item
+                  0x0086fc                  _linked_list_remove
+                  0x007764                  _load_link_keys
+                  0x006652                  _main
                   0x000b24                  _malloc
                   0x000c4c                  _memcmp
                   0x000c7e                  _memcpy
-                  0x0087c4                  _memory_pool_create
-                  0x0087be                  _memory_pool_free
-                  0x0087ae                  _memory_pool_get
+                  0x0087c8                  _memory_pool_create
+                  0x0087c2                  _memory_pool_free
+                  0x0087b2                  _memory_pool_get
                   0x000c8c                  _memset
-                  0x0082c6                  _net_store_16
-                  0x0082d0                  _net_store_32
+                  0x0082ca                  _net_store_16
+                  0x0082d4                  _net_store_32
                   0x001066                  _neutral_packet
-                  0x0064d2                  _out_button_state
-                  0x005872                  _packet_handler
-                  0x008318                  _printUUID
-                  0x00834a                  _print_bd_addr
-                  0x0077b4                  _print_link_keys
+                  0x0064d4                  _out_button_state
+                  0x005874                  _packet_handler
+                  0x00831c                  _printUUID
+                  0x00834e                  _print_bd_addr
+                  0x0077b6                  _print_link_keys
                   0x007668                  _prog_flashmem_row2
                   0x0070ac                  _put_dump
                   0x0076e8                  _read_flashmem
-                  0x0077b6                  _read_local_bluetooth_address
+                  0x0077b8                  _read_local_bluetooth_address
                   0x001104                  _remote_device_db_memory
                   0x000e74                  _rfcomm_accept_connection
                   0x003f9e                  _rfcomm_accept_connection_internal
-                  0x003c32                  _rfcomm_channel_packet_handler
+                  0x003c38                  _rfcomm_channel_packet_handler
                   0x003ff6                  _rfcomm_close_connection
                   0x000e4a                  _rfcomm_create_channel
                   0x003e6c                  _rfcomm_create_channel2
@@ -1021,47 +1019,47 @@ External Symbols in Program Memory (by name):
                   0x003e1c                  _rfcomm_send_internal
                   0x000e70                  _rfcomm_unregister_service
                   0x003f78                  _rfcomm_unregister_service_internal
-                  0x0087f2                  _run_loop_add_data_source
-                  0x008802                  _run_loop_add_timer
-                  0x0087f0                  _run_loop_assert
+                  0x0087f6                  _run_loop_add_data_source
+                  0x008806                  _run_loop_add_timer
+                  0x0087f4                  _run_loop_assert
                   0x001116                  _run_loop_embedded
-                  0x00881a                  _run_loop_execute
-                  0x008822                  _run_loop_init
-                  0x0087fa                  _run_loop_remove_data_source
-                  0x00880a                  _run_loop_remove_timer
-                  0x00844a                  _run_loop_set_timer
-                  0x008812                  _run_loop_timer_dump
+                  0x00881e                  _run_loop_execute
+                  0x008826                  _run_loop_init
+                  0x0087fe                  _run_loop_remove_data_source
+                  0x00880e                  _run_loop_remove_timer
+                  0x00844e                  _run_loop_set_timer
+                  0x008816                  _run_loop_timer_dump
                   0x007704                  _save_link_keys
-                  0x007814                  _save_local_bluetooth_address
-                  0x005de2                  _sdp_add_attribute
-                  0x005eee                  _sdp_append_attributes_in_attributeIDList
-                  0x005de4                  _sdp_attribute_list_constains_id
+                  0x007816                  _save_local_bluetooth_address
+                  0x005de4                  _sdp_add_attribute
+                  0x005ef0                  _sdp_append_attributes_in_attributeIDList
+                  0x005de6                  _sdp_attribute_list_constains_id
                   0x00102e                  _sdp_bluetooth_base_uuid
                   0x0069c6                  _sdp_create_error_response
                   0x006916                  _sdp_create_service_record_handle
-                  0x006026                  _sdp_create_spp_service
-                  0x005f08                  _sdp_filter_attributes_in_attributeIDList
-                  0x005f44                  _sdp_get_attribute_value_for_attribute_id
+                  0x006028                  _sdp_create_spp_service
+                  0x005f0a                  _sdp_filter_attributes_in_attributeIDList
+                  0x005f46                  _sdp_get_attribute_value_for_attribute_id
                   0x0068e6                  _sdp_get_record_for_handle
                   0x006890                  _sdp_get_service_record_handle
                   0x006afa                  _sdp_handle_service_attribute_request
                   0x006bfa                  _sdp_handle_service_search_attribute_request
                   0x0069ee                  _sdp_handle_service_search_request
                   0x00687e                  _sdp_init
-                  0x00596e                  _sdp_normalize_uuid
-                  0x005f70                  _sdp_record_contains_UUID128
-                  0x005fec                  _sdp_record_matches_service_search_pattern
+                  0x005970                  _sdp_normalize_uuid
+                  0x005f72                  _sdp_record_contains_UUID128
+                  0x005fee                  _sdp_record_matches_service_search_pattern
                   0x00688a                  _sdp_register_packet_handler
                   0x006938                  _sdp_register_service_internal
                   0x000e40                  _sdp_register_service_record
-                  0x005f58                  _sdp_set_attribute_value_for_attribute_id
-                  0x005f84                  _sdp_traversal_match_pattern
+                  0x005f5a                  _sdp_set_attribute_value_for_attribute_id
+                  0x005f86                  _sdp_traversal_match_pattern
                   0x006992                  _sdp_unregister_service_internal
                   0x000e46                  _sdp_unregister_service_record
                   0x0069ae                  _sdp_unregister_services_for_connection
                   0x0067b4                  _sendchar
                   0x00727e                  _sixaxis_process_packet
-                  0x005f30                  _spd_get_filtered_size
+                  0x005f32                  _spd_get_filtered_size
                   0x000c9a                  _strlen
                   0x000ca6                  _strncmp
                   0x000cc4                  _strncpy
@@ -1072,40 +1070,40 @@ External Symbols in Program Memory (by name):
                   0x006df6                  _xputc
                   0x006e1c                  _xputs
                   0x007082                  _xsprintf
-                  0x004c92                  build/default/production/_ext/1468720089/hci.o:_dummy_handler
-                  0x005094                  build/default/production/_ext/1468720089/hci.o:_hci_connection_timeout_handler
-                  0x007c64                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_dummy_handler
-                  0x007cdc                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_close
-                  0x007c60                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_get_transport_name
-                  0x007ce4                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_open
-                  0x007cf6                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_process_ds
-                  0x007c5c                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_register_packet_handler
-                  0x007cbc                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_send_packet
-                  0x004b94                  build/default/production/_ext/1468720089/l2cap.o:_l2cap_packet_handler
+                  0x004c94                  build/default/production/_ext/1468720089/hci.o:_dummy_handler
+                  0x005096                  build/default/production/_ext/1468720089/hci.o:_hci_connection_timeout_handler
+                  0x007c68                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_dummy_handler
+                  0x007ce0                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_close
+                  0x007c64                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_get_transport_name
+                  0x007ce8                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_open
+                  0x007cfa                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_process_ds
+                  0x007c60                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_register_packet_handler
+                  0x007cc0                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_send_packet
+                  0x004b96                  build/default/production/_ext/1468720089/l2cap.o:_l2cap_packet_handler
                   0x004046                  build/default/production/_ext/1468720089/l2cap.o:_null_packet_handler
-                  0x007838                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_close
-                  0x007836                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_open
-                  0x00797e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_link_key
-                  0x0078c2                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_name
-                  0x007952                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_link_key
-                  0x0078de                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_name
-                  0x00783a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_persistent_rfcomm_channel
-                  0x00799a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_link_key
-                  0x00790a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_name
-                  0x003416                  build/default/production/_ext/1468720089/rfcomm.o:_rfcomm_multiplexer_timer_handler
-                  0x0083aa                  build/default/production/_ext/1468720089/run_loop_embedded.o:_embedded_tick_handler
+                  0x00783c                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_close
+                  0x00783a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_open
+                  0x007982                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_link_key
+                  0x0078c6                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_name
+                  0x007956                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_link_key
+                  0x0078e2                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_name
+                  0x00783e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_persistent_rfcomm_channel
+                  0x00799e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_link_key
+                  0x00790e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_name
+                  0x00341a                  build/default/production/_ext/1468720089/rfcomm.o:_rfcomm_multiplexer_timer_handler
+                  0x0083ae                  build/default/production/_ext/1468720089/run_loop_embedded.o:_embedded_tick_handler
                   0x006d42                  build/default/production/_ext/1468720089/sdp.o:_sdp_packet_handler
-                  0x005a74                  build/default/production/_ext/1468720089/sdp_util.o:_de_traversal_dump_data
-                  0x005e90                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_append_attributes
-                  0x005894                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attributeID_search
-                  0x0058e6                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attribute_by_id
-                  0x005fae                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_contains_UUID128
-                  0x005e1a                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_filter_attributes
-                  0x005df8                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_get_filtered_size
-                  0x0058f4                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_set_attribute_for_id
-                  0x0065f8                  build/default/production/_ext/1472/main.o:_l2cap_control_packet_handler
-                  0x00658c                  build/default/production/_ext/1472/main.o:_l2cap_interrupt_packet_handler
-                  0x0062b6                  build/default/production/_ext/1472/main.o:_packet_handler
+                  0x005a76                  build/default/production/_ext/1468720089/sdp_util.o:_de_traversal_dump_data
+                  0x005e92                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_append_attributes
+                  0x005896                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attributeID_search
+                  0x0058e8                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attribute_by_id
+                  0x005fb0                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_contains_UUID128
+                  0x005e1c                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_filter_attributes
+                  0x005dfa                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_get_filtered_size
+                  0x0058f6                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_set_attribute_for_id
+                  0x0065fa                  build/default/production/_ext/1472/main.o:_l2cap_control_packet_handler
+                  0x00658e                  build/default/production/_ext/1472/main.o:_l2cap_interrupt_packet_handler
+                  0x0062b8                  build/default/production/_ext/1472/main.o:_packet_handler
 
 Memory Configuration
 
@@ -1157,7 +1155,7 @@ LOAD build/default/production/_ext/1472/dev_logicool_f510.o
 LOAD build/default/production/_ext/1472/TimeDelay.o
                     0x0001                  __MPLAB_BUILD = 0x1
 LOAD pPIC24Fxxx
-LOAD c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libfx-elf.a
+LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libfx-elf.a
                     0xabf8                  __CONFIG4 = 0xabf8
                     0xabfa                  __CONFIG3 = 0xabfa
                     0xabfc                  __CONFIG2 = 0xabfc
@@ -1178,11 +1176,11 @@ LOAD c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libfx-elf.a
 
 .text             0x000200        0xae6
  *(.init)
- .init            0x000200         0x4c c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+ .init            0x000200         0x4c c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
                   0x000200                  __resetPRI
                   0x000200                  __reset
                   0x00023c                  __psv_init
- .init            0x00024c         0x7c c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+ .init            0x00024c         0x7c c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
                   0x000252                  __data_init_standard
                   0x000252                  __data_init
  *(.user_init)
@@ -1196,74 +1194,74 @@ LOAD c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libfx-elf.a
  .isr             0x00078a          0x4 default_isr
                   0x00078a                  __DefaultInterrupt
  *(.libc)
- .libc            0x00078e         0x28 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(sbrk.eo)
+ .libc            0x00078e         0x28 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(sbrk.eo)
                   0x00078e                  _sbrk
- .libc            0x0007b6         0x1a c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(brk.elo)
+ .libc            0x0007b6         0x1a c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(brk.elo)
                   0x0007b6                  _brk
  *(.libm)
  *(.libdsp)
  *(.lib*)
  .libpic30_crt_start_mode
-                  0x0007d0          0x2 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(crt_start_mode_normal.eo)
+                  0x0007d0          0x2 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(crt_start_mode_normal.eo)
                   0x0007d0                  __crt_start_mode
                   0x0007d0                  __crt_start_mode_normal
- .libm.subsf3     0x0007d2         0xbc c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(addsf3.eo)
+ .libm.subsf3     0x0007d2         0xbc c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.eo)
                   0x0007d2                  ___subsf3
                   0x0007d4                  ___addsf3
- .libm.divfs3     0x00088e         0x84 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(divsf3.eo)
+ .libm.divfs3     0x00088e         0x84 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(divsf3.eo)
                   0x00088e                  ___divsf3
- .libm.eqsf2      0x000912          0x4 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(feqltle.eo)
+ .libm.eqsf2      0x000912          0x4 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(feqltle.eo)
                   0x000912                  ___eqsf2
                   0x000912                  ___ltsf2
                   0x000912                  ___lesf2
- .libm.fixsfsi    0x000916         0x42 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fixsfsi.eo)
+ .libm.fixsfsi    0x000916         0x42 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fixsfsi.eo)
                   0x000916                  _(float, int, long long, short, float, short, int)
  .libm.floatunsisf
-                  0x000958          0x4 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(floatunsisf.eo)
+                  0x000958          0x4 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatunsisf.eo)
                   0x000958                  ___floatunsisf
- .libm.fpack      0x00095c         0x4c c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fpack.eo)
+ .libm.fpack      0x00095c         0x4c c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fpack.eo)
                   0x00095c                  __fpack
- .libm.funpack    0x0009a8         0x2a c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(funpack.eo)
+ .libm.funpack    0x0009a8         0x2a c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack.eo)
                   0x0009a8                  __funpack
  .libm.funpack2
-                  0x0009d2         0x10 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(funpack2.eo)
+                  0x0009d2         0x10 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack2.eo)
                   0x0009d2                  __funpack2
  .libm.fPropagateNaN
-                  0x0009e2         0x12 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(futil.eo)
+                  0x0009e2         0x12 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(futil.eo)
                   0x0009e2                  __fPropagateNaN
  .libm.fbobExit
-                  0x0009f4          0x8 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(futil.eo)
+                  0x0009f4          0x8 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(futil.eo)
                   0x0009f4                  __fbopExit
  .libm.fbopReturnNaN
-                  0x0009fc          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(futil.eo)
+                  0x0009fc          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(futil.eo)
                   0x0009fc                  __fbopReturnNaN
- .libm.mulsf3     0x000a02         0x68 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(mulsf3.eo)
+ .libm.mulsf3     0x000a02         0x68 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(mulsf3.eo)
                   0x000a02                  ___mulsf3
- .libm.udivsi3    0x000a6a         0x20 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(udivsi3.eo)
+ .libm.udivsi3    0x000a6a         0x20 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(udivsi3.eo)
                   0x000a6a                  ___udivsi3
- .libm.umodsi3    0x000a8a          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(umodsi3.eo)
+ .libm.umodsi3    0x000a8a          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(umodsi3.eo)
                   0x000a8a                  ___umodsi3
  .libm.fcompare
-                  0x000a90         0x36 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fcompare.eo)
+                  0x000a90         0x36 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fcompare.eo)
                   0x000a90                  __fcompare
  .libm.floatundisf
-                  0x000ac6         0x5e c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(floatundisf.eo)
+                  0x000ac6         0x5e c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatundisf.eo)
                   0x000ac6                  ___floatundisf
- .libc.malloc     0x000b24        0x112 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(malloc.eo)
+ .libc.malloc     0x000b24        0x112 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(malloc.eo)
                   0x000b24                  _malloc
- .libc.free       0x000c36         0x16 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(malloc.eo)
+ .libc.free       0x000c36         0x16 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(malloc.eo)
                   0x000c36                  _free
- .libc.memcmp     0x000c4c         0x32 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memcmp.eo)
+ .libc.memcmp     0x000c4c         0x32 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memcmp.eo)
                   0x000c4c                  _memcmp
- .libc.memcpy     0x000c7e          0xe c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memcpy.eo)
+ .libc.memcpy     0x000c7e          0xe c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memcpy.eo)
                   0x000c7e                  _memcpy
- .libc.memset     0x000c8c          0xe c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memset.eo)
+ .libc.memset     0x000c8c          0xe c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memset.eo)
                   0x000c8c                  _memset
- .libc.strlen     0x000c9a          0xc c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strlen.eo)
+ .libc.strlen     0x000c9a          0xc c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strlen.eo)
                   0x000c9a                  _strlen
- .libc.strncmp    0x000ca6         0x1e c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strncmp.eo)
+ .libc.strncmp    0x000ca6         0x1e c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strncmp.eo)
                   0x000ca6                  _strncmp
- .libc.strncpy    0x000cc4         0x22 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strncpy.eo)
+ .libc.strncpy    0x000cc4         0x22 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strncpy.eo)
                   0x000cc4                  _strncpy
 
 usercode
@@ -1288,7 +1286,7 @@ __CONFIG1         0x00abfe          0x2
 .comment
  *(.comment)
 
-.debug_info       0x000000      0x19ece
+.debug_info       0x000000      0x19ecf
  *(.debug_info)
  .debug_info      0x000000       0x1d41 build/default/production/_ext/1468720089/btstack_memory.o
  .debug_info      0x001d41       0x1f66 build/default/production/_ext/1468720089/hci.o
@@ -1307,20 +1305,20 @@ __CONFIG1         0x00abfe          0x2
  .debug_info      0x00d1b3       0x18a3 build/default/production/_ext/1468720089/sdp_util.o
  .debug_info      0x00ea56        0x4fb build/default/production/_ext/1468720089/utils.o
  .debug_info      0x00ef51        0x139 build/default/production/_ext/2108356922/uart2.o
- .debug_info      0x00f08a        0xa1e build/default/production/_ext/2108356922/uart1.o
- .debug_info      0x00faa8       0x39e2 build/default/production/_ext/1360907413/usb_host.o
- .debug_info      0x01348a        0xae0 build/default/production/_ext/1360907413/usb_host_bluetooth.o
- .debug_info      0x013f6a       0x22fc build/default/production/_ext/1472/main.o
- .debug_info      0x016266        0x7fd build/default/production/_ext/1472/usb_config.o
- .debug_info      0x016a63        0x404 build/default/production/_ext/1472/xprintf.o
- .debug_info      0x016e67        0xa52 build/default/production/_ext/1472/flash.o
- .debug_info      0x0178b9        0x532 build/default/production/_ext/1472/dev_dragonrise.o
- .debug_info      0x017deb        0x53b build/default/production/_ext/1472/dev_elecom_u3312s.o
- .debug_info      0x018326        0x53c build/default/production/_ext/1472/dev_elecom_u3412s.o
- .debug_info      0x018862        0x532 build/default/production/_ext/1472/dev_logicool_f710.o
- .debug_info      0x018d94        0x9e8 build/default/production/_ext/1472/dev_sony_ps3.o
- .debug_info      0x01977c        0x53f build/default/production/_ext/1472/dev_logicool_f510.o
- .debug_info      0x019cbb        0x213 build/default/production/_ext/1472/TimeDelay.o
+ .debug_info      0x00f08a        0xa1f build/default/production/_ext/2108356922/uart1.o
+ .debug_info      0x00faa9       0x39e2 build/default/production/_ext/1360907413/usb_host.o
+ .debug_info      0x01348b        0xae0 build/default/production/_ext/1360907413/usb_host_bluetooth.o
+ .debug_info      0x013f6b       0x22fc build/default/production/_ext/1472/main.o
+ .debug_info      0x016267        0x7fd build/default/production/_ext/1472/usb_config.o
+ .debug_info      0x016a64        0x404 build/default/production/_ext/1472/xprintf.o
+ .debug_info      0x016e68        0xa52 build/default/production/_ext/1472/flash.o
+ .debug_info      0x0178ba        0x532 build/default/production/_ext/1472/dev_dragonrise.o
+ .debug_info      0x017dec        0x53b build/default/production/_ext/1472/dev_elecom_u3312s.o
+ .debug_info      0x018327        0x53c build/default/production/_ext/1472/dev_elecom_u3412s.o
+ .debug_info      0x018863        0x532 build/default/production/_ext/1472/dev_logicool_f710.o
+ .debug_info      0x018d95        0x9e8 build/default/production/_ext/1472/dev_sony_ps3.o
+ .debug_info      0x01977d        0x53f build/default/production/_ext/1472/dev_logicool_f510.o
+ .debug_info      0x019cbc        0x213 build/default/production/_ext/1472/TimeDelay.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000       0x2e82
@@ -1357,71 +1355,71 @@ __CONFIG1         0x00abfe          0x2
  .debug_abbrev    0x002cbc        0x15e build/default/production/_ext/1472/dev_logicool_f510.o
  .debug_abbrev    0x002e1a         0x68 build/default/production/_ext/1472/TimeDelay.o
 
-.debug_line       0x000000       0x3710
+.debug_line       0x000000       0x357b
  *(.debug_line)
- .debug_line      0x000000        0x154 build/default/production/_ext/1468720089/btstack_memory.o
- .debug_line      0x000154        0x3b7 build/default/production/_ext/1468720089/hci.o
- .debug_line      0x00050b         0xe1 build/default/production/_ext/1468720089/hci_cmds.o
- .debug_line      0x0005ec         0xa6 build/default/production/_ext/1468720089/hci_dump.o
- .debug_line      0x000692        0x160 build/default/production/_ext/1468720089/hci_transport_picusb.o
- .debug_line      0x0007f2        0x3b3 build/default/production/_ext/1468720089/l2cap.o
- .debug_line      0x000ba5         0xe4 build/default/production/_ext/1468720089/l2cap_signaling.o
- .debug_line      0x000c89         0x80 build/default/production/_ext/1468720089/linked_list.o
- .debug_line      0x000d09         0x6a build/default/production/_ext/1468720089/memory_pool.o
- .debug_line      0x000d73        0x137 build/default/production/_ext/1468720089/remote_device_db_memory.o
- .debug_line      0x000eaa        0x546 build/default/production/_ext/1468720089/rfcomm.o
- .debug_line      0x0013f0         0xda build/default/production/_ext/1468720089/run_loop.o
- .debug_line      0x0014ca        0x145 build/default/production/_ext/1468720089/run_loop_embedded.o
- .debug_line      0x00160f        0x206 build/default/production/_ext/1468720089/sdp.o
- .debug_line      0x001815        0x278 build/default/production/_ext/1468720089/sdp_util.o
- .debug_line      0x001a8d         0xba build/default/production/_ext/1468720089/utils.o
- .debug_line      0x001b47         0x1a build/default/production/_ext/2108356922/uart2.o
- .debug_line      0x001b61        0x187 build/default/production/_ext/2108356922/uart1.o
- .debug_line      0x001ce8        0x998 build/default/production/_ext/1360907413/usb_host.o
- .debug_line      0x002680        0x12f build/default/production/_ext/1360907413/usb_host_bluetooth.o
- .debug_line      0x0027af        0x36b build/default/production/_ext/1472/main.o
- .debug_line      0x002b1a         0x71 build/default/production/_ext/1472/usb_config.o
- .debug_line      0x002b8b        0x137 build/default/production/_ext/1472/xprintf.o
- .debug_line      0x002cc2        0x1e5 build/default/production/_ext/1472/flash.o
- .debug_line      0x002ea7        0x12c build/default/production/_ext/1472/dev_dragonrise.o
- .debug_line      0x002fd3        0x123 build/default/production/_ext/1472/dev_elecom_u3312s.o
- .debug_line      0x0030f6        0x123 build/default/production/_ext/1472/dev_elecom_u3412s.o
- .debug_line      0x003219        0x143 build/default/production/_ext/1472/dev_logicool_f710.o
- .debug_line      0x00335c        0x20e build/default/production/_ext/1472/dev_sony_ps3.o
- .debug_line      0x00356a        0x12f build/default/production/_ext/1472/dev_logicool_f510.o
- .debug_line      0x003699         0x77 build/default/production/_ext/1472/TimeDelay.o
+ .debug_line      0x000000        0x14d build/default/production/_ext/1468720089/btstack_memory.o
+ .debug_line      0x00014d        0x3b0 build/default/production/_ext/1468720089/hci.o
+ .debug_line      0x0004fd         0xda build/default/production/_ext/1468720089/hci_cmds.o
+ .debug_line      0x0005d7         0xa0 build/default/production/_ext/1468720089/hci_dump.o
+ .debug_line      0x000677        0x159 build/default/production/_ext/1468720089/hci_transport_picusb.o
+ .debug_line      0x0007d0        0x3ad build/default/production/_ext/1468720089/l2cap.o
+ .debug_line      0x000b7d         0xdd build/default/production/_ext/1468720089/l2cap_signaling.o
+ .debug_line      0x000c5a         0x7f build/default/production/_ext/1468720089/linked_list.o
+ .debug_line      0x000cd9         0x6a build/default/production/_ext/1468720089/memory_pool.o
+ .debug_line      0x000d43        0x130 build/default/production/_ext/1468720089/remote_device_db_memory.o
+ .debug_line      0x000e73        0x53e build/default/production/_ext/1468720089/rfcomm.o
+ .debug_line      0x0013b1         0xd4 build/default/production/_ext/1468720089/run_loop.o
+ .debug_line      0x001485        0x13e build/default/production/_ext/1468720089/run_loop_embedded.o
+ .debug_line      0x0015c3        0x1ff build/default/production/_ext/1468720089/sdp.o
+ .debug_line      0x0017c2        0x271 build/default/production/_ext/1468720089/sdp_util.o
+ .debug_line      0x001a33         0xb3 build/default/production/_ext/1468720089/utils.o
+ .debug_line      0x001ae6         0x1a build/default/production/_ext/2108356922/uart2.o
+ .debug_line      0x001b00        0x152 build/default/production/_ext/2108356922/uart1.o
+ .debug_line      0x001c52        0x962 build/default/production/_ext/1360907413/usb_host.o
+ .debug_line      0x0025b4        0x12e build/default/production/_ext/1360907413/usb_host_bluetooth.o
+ .debug_line      0x0026e2        0x338 build/default/production/_ext/1472/main.o
+ .debug_line      0x002a1a         0x71 build/default/production/_ext/1472/usb_config.o
+ .debug_line      0x002a8b        0x130 build/default/production/_ext/1472/xprintf.o
+ .debug_line      0x002bbb        0x1b0 build/default/production/_ext/1472/flash.o
+ .debug_line      0x002d6b        0x125 build/default/production/_ext/1472/dev_dragonrise.o
+ .debug_line      0x002e90        0x11c build/default/production/_ext/1472/dev_elecom_u3312s.o
+ .debug_line      0x002fac        0x11c build/default/production/_ext/1472/dev_elecom_u3412s.o
+ .debug_line      0x0030c8        0x13c build/default/production/_ext/1472/dev_logicool_f710.o
+ .debug_line      0x003204        0x1d9 build/default/production/_ext/1472/dev_sony_ps3.o
+ .debug_line      0x0033dd        0x128 build/default/production/_ext/1472/dev_logicool_f510.o
+ .debug_line      0x003505         0x76 build/default/production/_ext/1472/TimeDelay.o
 
-.debug_frame      0x000000       0x2d3c
+.debug_frame      0x000000       0x2cfe
  *(.debug_frame)
  .debug_frame     0x000000        0x144 build/default/production/_ext/1468720089/btstack_memory.o
- .debug_frame     0x000144        0x510 build/default/production/_ext/1468720089/hci.o
- .debug_frame     0x000654         0x6c build/default/production/_ext/1468720089/hci_cmds.o
- .debug_frame     0x0006c0         0x60 build/default/production/_ext/1468720089/hci_dump.o
- .debug_frame     0x000720        0x116 build/default/production/_ext/1468720089/hci_transport_picusb.o
- .debug_frame     0x000836        0x54e build/default/production/_ext/1468720089/l2cap.o
- .debug_frame     0x000d84         0x68 build/default/production/_ext/1468720089/l2cap_signaling.o
- .debug_frame     0x000dec         0x84 build/default/production/_ext/1468720089/linked_list.o
- .debug_frame     0x000e70         0x60 build/default/production/_ext/1468720089/memory_pool.o
- .debug_frame     0x000ed0        0x126 build/default/production/_ext/1468720089/remote_device_db_memory.o
- .debug_frame     0x000ff6        0x69a build/default/production/_ext/1468720089/rfcomm.o
- .debug_frame     0x001690         0x94 build/default/production/_ext/1468720089/run_loop.o
- .debug_frame     0x001724         0xe8 build/default/production/_ext/1468720089/run_loop_embedded.o
- .debug_frame     0x00180c        0x21c build/default/production/_ext/1468720089/sdp.o
- .debug_frame     0x001a28        0x4a6 build/default/production/_ext/1468720089/sdp_util.o
- .debug_frame     0x001ece        0x11e build/default/production/_ext/1468720089/utils.o
- .debug_frame     0x001fec         0xa8 build/default/production/_ext/2108356922/uart1.o
- .debug_frame     0x002094        0x3f6 build/default/production/_ext/1360907413/usb_host.o
- .debug_frame     0x00248a         0xc2 build/default/production/_ext/1360907413/usb_host_bluetooth.o
- .debug_frame     0x00254c        0x28c build/default/production/_ext/1472/main.o
- .debug_frame     0x0027d8        0x1a2 build/default/production/_ext/1472/xprintf.o
- .debug_frame     0x00297a        0x106 build/default/production/_ext/1472/flash.o
- .debug_frame     0x002a80         0x4a build/default/production/_ext/1472/dev_dragonrise.o
- .debug_frame     0x002aca         0x4a build/default/production/_ext/1472/dev_elecom_u3312s.o
- .debug_frame     0x002b14         0x4a build/default/production/_ext/1472/dev_elecom_u3412s.o
- .debug_frame     0x002b5e         0x4a build/default/production/_ext/1472/dev_logicool_f710.o
- .debug_frame     0x002ba8         0xf6 build/default/production/_ext/1472/dev_sony_ps3.o
- .debug_frame     0x002c9e         0x4a build/default/production/_ext/1472/dev_logicool_f510.o
- .debug_frame     0x002ce8         0x54 build/default/production/_ext/1472/TimeDelay.o
+ .debug_frame     0x000144        0x500 build/default/production/_ext/1468720089/hci.o
+ .debug_frame     0x000644         0x6a build/default/production/_ext/1468720089/hci_cmds.o
+ .debug_frame     0x0006ae         0x5e build/default/production/_ext/1468720089/hci_dump.o
+ .debug_frame     0x00070c        0x116 build/default/production/_ext/1468720089/hci_transport_picusb.o
+ .debug_frame     0x000822        0x54e build/default/production/_ext/1468720089/l2cap.o
+ .debug_frame     0x000d70         0x68 build/default/production/_ext/1468720089/l2cap_signaling.o
+ .debug_frame     0x000dd8         0x84 build/default/production/_ext/1468720089/linked_list.o
+ .debug_frame     0x000e5c         0x60 build/default/production/_ext/1468720089/memory_pool.o
+ .debug_frame     0x000ebc        0x126 build/default/production/_ext/1468720089/remote_device_db_memory.o
+ .debug_frame     0x000fe2        0x68e build/default/production/_ext/1468720089/rfcomm.o
+ .debug_frame     0x001670         0x94 build/default/production/_ext/1468720089/run_loop.o
+ .debug_frame     0x001704         0xe8 build/default/production/_ext/1468720089/run_loop_embedded.o
+ .debug_frame     0x0017ec        0x21c build/default/production/_ext/1468720089/sdp.o
+ .debug_frame     0x001a08        0x496 build/default/production/_ext/1468720089/sdp_util.o
+ .debug_frame     0x001e9e        0x11e build/default/production/_ext/1468720089/utils.o
+ .debug_frame     0x001fbc         0xa8 build/default/production/_ext/2108356922/uart1.o
+ .debug_frame     0x002064        0x3f4 build/default/production/_ext/1360907413/usb_host.o
+ .debug_frame     0x002458         0xc0 build/default/production/_ext/1360907413/usb_host_bluetooth.o
+ .debug_frame     0x002518        0x288 build/default/production/_ext/1472/main.o
+ .debug_frame     0x0027a0        0x19e build/default/production/_ext/1472/xprintf.o
+ .debug_frame     0x00293e        0x106 build/default/production/_ext/1472/flash.o
+ .debug_frame     0x002a44         0x4a build/default/production/_ext/1472/dev_dragonrise.o
+ .debug_frame     0x002a8e         0x4a build/default/production/_ext/1472/dev_elecom_u3312s.o
+ .debug_frame     0x002ad8         0x4a build/default/production/_ext/1472/dev_elecom_u3412s.o
+ .debug_frame     0x002b22         0x4a build/default/production/_ext/1472/dev_logicool_f710.o
+ .debug_frame     0x002b6c         0xf6 build/default/production/_ext/1472/dev_sony_ps3.o
+ .debug_frame     0x002c62         0x4a build/default/production/_ext/1472/dev_logicool_f510.o
+ .debug_frame     0x002cac         0x52 build/default/production/_ext/1472/TimeDelay.o
 
 .debug_str        0x000000       0x1056
  *(.debug_str)
@@ -2433,9 +2431,9 @@ __CONFIG1         0x00abfe          0x2
                     0x0230                  UART2 = 0x230
                     0x0230                  _UART2 = 0x230
 START GROUP
-LOAD c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a
-LOAD c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a
-LOAD c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a
+LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a
+LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a
+LOAD c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a
 END GROUP
 OUTPUT(dist/default/production/sbxbt_ps3.X.production.elf elf32-pic30)
 LOAD jump_table
@@ -2573,55 +2571,55 @@ __c30_signature
  __c30_signature
                   0x00239e          0x6 build/default/production/_ext/1472/TimeDelay.o
  __c30_signature
-                  0x0023a4          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
+                  0x0023a4          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(crt0_standard.o)
  __c30_signature
-                  0x0023aa          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
+                  0x0023aa          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(data_init_standard.o)
  __c30_signature
-                  0x0023b0          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(addsf3.eo)
+                  0x0023b0          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(addsf3.eo)
  __c30_signature
-                  0x0023b6          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(divsf3.eo)
+                  0x0023b6          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(divsf3.eo)
  __c30_signature
-                  0x0023bc          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(feqltle.eo)
+                  0x0023bc          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(feqltle.eo)
  __c30_signature
-                  0x0023c2          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fixsfsi.eo)
+                  0x0023c2          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fixsfsi.eo)
  __c30_signature
-                  0x0023c8          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(floatunsisf.eo)
+                  0x0023c8          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatunsisf.eo)
  __c30_signature
-                  0x0023ce          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fpack.eo)
+                  0x0023ce          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fpack.eo)
  __c30_signature
-                  0x0023d4          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(funpack.eo)
+                  0x0023d4          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack.eo)
  __c30_signature
-                  0x0023da          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(funpack2.eo)
+                  0x0023da          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(funpack2.eo)
  __c30_signature
-                  0x0023e0          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(futil.eo)
+                  0x0023e0          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(futil.eo)
  __c30_signature
-                  0x0023e6          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(mulsf3.eo)
+                  0x0023e6          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(mulsf3.eo)
  __c30_signature
-                  0x0023ec          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(udivsi3.eo)
+                  0x0023ec          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(udivsi3.eo)
  __c30_signature
-                  0x0023f2          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(umodsi3.eo)
+                  0x0023f2          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(umodsi3.eo)
  __c30_signature
-                  0x0023f8          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(fcompare.eo)
+                  0x0023f8          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(fcompare.eo)
  __c30_signature
-                  0x0023fe          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libm-elf.a(floatundisf.eo)
+                  0x0023fe          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libm-elf.a(floatundisf.eo)
  __c30_signature
-                  0x002404          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(malloc.eo)
+                  0x002404          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(malloc.eo)
  __c30_signature
-                  0x00240a          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memcmp.eo)
+                  0x00240a          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memcmp.eo)
  __c30_signature
-                  0x002410          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memcpy.eo)
+                  0x002410          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memcpy.eo)
  __c30_signature
-                  0x002416          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(memset.eo)
+                  0x002416          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(memset.eo)
  __c30_signature
-                  0x00241c          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strlen.eo)
+                  0x00241c          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strlen.eo)
  __c30_signature
-                  0x002422          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strncmp.eo)
+                  0x002422          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strncmp.eo)
  __c30_signature
-                  0x002428          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(strncpy.eo)
+                  0x002428          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(strncpy.eo)
  __c30_signature
-                  0x00242e          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(sbrk.eo)
+                  0x00242e          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(sbrk.eo)
  __c30_signature
-                  0x002434          0x6 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(brk.elo)
+                  0x002434          0x6 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(brk.elo)
 
 .nbss               0x0800         0x7c
  .nbss              0x0800         0x1c build/default/production/_ext/1472/main.o
@@ -2686,9 +2684,9 @@ __c30_signature
                     0x0e6c                  _usbClientDrvTable
                     0x0ebc                  _usbTPL
 
-_04D797805e4b8049
+_00000000057186E06020f357
                     0x0f0c         0x80
- _04D797805e4b8049
+ _00000000057186E06020f357
                     0x0f0c         0x80 build/default/production/_ext/1472/main.o
 
 .bss                0x0f8c         0x38
@@ -2696,9 +2694,9 @@ _04D797805e4b8049
                     0x0f8c                  _lineBuffer
                     0x0fbe                  _addr_global
 
-_04D08E405e4b7d74
+_00000000054068206020f357
                     0x1000         0x10
- _04D08E405e4b7d74
+ _00000000054068206020f357
                     0x1000         0x10 build/default/production/_ext/1360907413/usb_host.o
 
 .bss                0x1010        0x132
@@ -2713,13 +2711,13 @@ _04D08E405e4b7d74
 .bss                0x1142         0x2a
  .bss               0x1142         0x10 build/default/production/_ext/1360907413/usb_host_bluetooth.o
                     0x1142                  _gc_DevData
- .bss               0x1152         0x10 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libc-elf.a(malloc.eo)
+ .bss               0x1152         0x10 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libc-elf.a(malloc.eo)
                     0x1152                  ___allocs
                     0x115a                  ___allocp
                     0x115c                  ___alloct
                     0x115e                  ___allocx
  .bss               0x1162          0x8 build/default/production/_ext/1472/dev_sony_ps3.o
- .bss               0x116a          0x2 c:/program files (x86)/microchip/xc16/v1.41/bin/bin/../../lib\libpic30-elf.a(brk.elo)
+ .bss               0x116a          0x2 c:/program files/microchip/xc16/v1.60/bin/bin/../../lib\libpic30-elf.a(brk.elo)
                     0x116a                  ___curbrk
 
 .heap               0x116c        0x800
@@ -2831,8 +2829,8 @@ _04D08E405e4b7d74
                     0x9116                  _run_loop_embedded
  .const             0x9124          0x8 build/default/production/_ext/1468720089/hci_transport_picusb.o
 
-.text             0x00112c       0x68ae
- .text            0x00112c       0x1dc0 build/default/production/_ext/1360907413/usb_host.o
+.text             0x00112c       0x68b2
+ .text            0x00112c       0x1dbc build/default/production/_ext/1360907413/usb_host.o
                   0x00112c                  _USBHostDeviceSpecificClientDriver
                   0x001134                  _USBHostDeviceStatus
                   0x00116e                  _USBHostResetDevice
@@ -2843,34 +2841,34 @@ _04D08E405e4b7d74
                   0x00129a                  __USB_FindDeviceLevelClientDriver
                   0x0013a2                  __USB_FindEndpoint
                   0x0013de                  _USBHostTransferIsComplete
-                  0x00143e                  _USBHostTerminateTransfer
-                  0x00145a                  _USBHostSetNAKTimeout
-                  0x001488                  _USBHostClearEndpointErrors
-                  0x0014ac                  __USB_FindServiceEndpoint
-                  0x001568                  __USB_FreeConfigMemory
-                  0x0015d0                  __USB_FreeMemory
-                  0x001614                  _USBHostInit
-                  0x001650                  __USB_InitControlRead
-                  0x001698                  __USB_InitControlWrite
-                  0x0016ea                  __USB_InitRead
-                  0x001742                  _USBHostRead
-                  0x0017a6                  __USB_InitWrite
-                  0x0017fe                  _USBHostWrite
-                  0x001862                  __USB_NotifyClients
-                  0x0018ea                  _USBHostShutdown
-                  0x001918                  _USBHostVbusEvent
-                  0x001940                  __USB_ParseConfigurationDescriptor
-                  0x001bb6                  _USBHostTasks
-                  0x00241e                  __USB_ResetDATA0
-                  0x00245c                  _USBHostIssueDeviceRequest
-                  0x002564                  __USB_SendToken
-                  0x00259c                  __USB_SetBDT
-                  0x00269e                  __USB_FindNextToken
-                  0x002e6a                  __USB_TransferInProgress
-                  0x002eb4                  _USBHostSetDeviceConfiguration
- .text            0x002eec       0x115a build/default/production/_ext/1468720089/rfcomm.o
-                  0x003416                  build/default/production/_ext/1468720089/rfcomm.o:_rfcomm_multiplexer_timer_handler
-                  0x003c32                  _rfcomm_channel_packet_handler
+                  0x00143c                  _USBHostTerminateTransfer
+                  0x001458                  _USBHostSetNAKTimeout
+                  0x001484                  _USBHostClearEndpointErrors
+                  0x0014a8                  __USB_FindServiceEndpoint
+                  0x001564                  __USB_FreeConfigMemory
+                  0x0015cc                  __USB_FreeMemory
+                  0x001610                  _USBHostInit
+                  0x00164c                  __USB_InitControlRead
+                  0x001694                  __USB_InitControlWrite
+                  0x0016e6                  __USB_InitRead
+                  0x00173e                  _USBHostRead
+                  0x0017a2                  __USB_InitWrite
+                  0x0017fa                  _USBHostWrite
+                  0x00185e                  __USB_NotifyClients
+                  0x0018e6                  _USBHostShutdown
+                  0x001914                  _USBHostVbusEvent
+                  0x00193c                  __USB_ParseConfigurationDescriptor
+                  0x001bb2                  _USBHostTasks
+                  0x00241a                  __USB_ResetDATA0
+                  0x002458                  _USBHostIssueDeviceRequest
+                  0x002560                  __USB_SendToken
+                  0x002598                  __USB_SetBDT
+                  0x00269a                  __USB_FindNextToken
+                  0x002e66                  __USB_TransferInProgress
+                  0x002eb0                  _USBHostSetDeviceConfiguration
+ .text            0x002ee8       0x115e build/default/production/_ext/1468720089/rfcomm.o
+                  0x00341a                  build/default/production/_ext/1468720089/rfcomm.o:_rfcomm_multiplexer_timer_handler
+                  0x003c38                  _rfcomm_channel_packet_handler
                   0x003d84                  _rfcomm_packet_handler
                   0x003e0e                  _rfcomm_init
                   0x003e18                  _rfcomm_register_packet_handler
@@ -2888,122 +2886,122 @@ _04D08E405e4b7d74
                   0x003fda                  _rfcomm_grant_credits
                   0x003ff6                  _rfcomm_close_connection
                   0x004028                  _is_rfcomm_send_avail
- .text            0x004046        0xc28 build/default/production/_ext/1468720089/l2cap.o
+ .text            0x004046        0xc2a build/default/production/_ext/1468720089/l2cap.o
                   0x004046                  build/default/production/_ext/1468720089/l2cap.o:_null_packet_handler
                   0x0040c2                  _l2cap_init
                   0x0040d8                  _l2cap_register_packet_handler
                   0x0040dc                  _l2cap_dispatch
-                  0x00423c                  _l2cap_emit_credits
-                  0x004276                  _l2cap_block_new_credits
-                  0x00427c                  _l2cap_hand_out_credits
-                  0x0042b8                  _l2cap_get_channel_for_local_cid
-                  0x0042de                  _l2cap_can_send_packet_now
-                  0x0042f4                  _l2cap_get_remote_mtu_for_local_cid
-                  0x004302                  _l2cap_send_signaling_packet
-                  0x004336                  _l2cap_get_outgoing_buffer
-                  0x00433c                  _l2cap_send_prepared
-                  0x00439c                  _l2cap_send_prepared_connectionless
-                  0x0043e6                  _l2cap_send_internal
-                  0x004412                  _l2cap_send_connectionless
-                  0x004442                  _l2cap_run
-                  0x0046e2                  _l2cap_max_mtu
-                  0x00477c                  _l2cap_create_channel_internal
-                  0x0047ea                  _l2cap_disconnect_internal
-                  0x0047f8                  _l2cap_event_handler
-                  0x004944                  _l2cap_accept_connection_internal
-                  0x004952                  _l2cap_decline_connection_internal
-                  0x004968                  _l2cap_signaling_handle_configure_request
-                  0x0049aa                  _l2cap_signaling_handler_channel
-                  0x004a7c                  _l2cap_signaling_handler_dispatch
-                  0x004b0a                  _l2cap_acl_handler
-                  0x004b94                  build/default/production/_ext/1468720089/l2cap.o:_l2cap_packet_handler
-                  0x004bae                  _l2cap_register_service_internal
-                  0x004bfc                  _l2cap_unregister_service_internal
-                  0x004c22                  _l2cap_close_connection
-                  0x004c5c                  _l2cap_register_fixed_channel
- .text            0x004c6e        0xc1e build/default/production/_ext/1468720089/hci.o
-                  0x004c92                  build/default/production/_ext/1468720089/hci.o:_dummy_handler
-                  0x004d9a                  _connection_for_handle
-                  0x004dc0                  _hci_authentication_active_for_handle
-                  0x004dd8                  _hci_drop_link_key_for_bd_addr
-                  0x004de4                  _hci_number_outgoing_packets
-                  0x004df2                  _hci_number_free_acl_slots
-                  0x004e1c                  _hci_can_send_packet_now
-                  0x004e4c                  _hci_send_acl_packet
-                  0x004e90                  _hci_usable_acl_packet_types
-                  0x004e94                  _hci_get_outgoing_acl_packet_buffer
-                  0x004e98                  _hci_max_acl_data_packet_length
-                  0x004e9c                  _hci_register_packet_handler
-                  0x004ea0                  _hci_init
-                  0x004ee0                  _hci_emit_state
-                  0x004f06                  _hci_emit_connection_complete
-                  0x004f46                  _hci_send_cmd_packet
-                  0x005020                  _hci_send_cmd
-                  0x005034                  _hci_emit_disconnection_complete
-                  0x00506a                  _hci_emit_l2cap_check_timeout
-                  0x005094                  build/default/production/_ext/1468720089/hci.o:_hci_connection_timeout_handler
-                  0x0050d2                  _hci_emit_nr_connections_changed
-                  0x005116                  _hci_run
-                  0x005360                  _hci_connectable_control
-                  0x00541a                  _hci_emit_hci_open_failed
-                  0x00547e                  _hci_power_control
-                  0x005548                  _hci_close
-                  0x00556c                  _hci_emit_system_bluetooth_enabled
-                  0x005590                  _hci_emit_remote_name_cached
-                  0x0055d2                  _hci_emit_discoverable_enabled
-                  0x0055f6                  _hci_discoverable_control
-                  0x005872                  _packet_handler
- .text            0x00588c        0x8f4 build/default/production/_ext/1468720089/sdp_util.o
-                  0x005894                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attributeID_search
-                  0x0058e6                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attribute_by_id
-                  0x0058f4                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_set_attribute_for_id
-                  0x00596e                  _sdp_normalize_uuid
-                  0x00597c                  _de_get_size_type
-                  0x005982                  _de_get_element_type
-                  0x005988                  _de_get_header_size
-                  0x00599a                  _de_get_data_size
-                  0x005a0c                  _de_get_len
-                  0x005a74                  build/default/production/_ext/1468720089/sdp_util.o:_de_traversal_dump_data
-                  0x005c14                  _de_get_normalized_uuid
-                  0x005c90                  _de_store_descriptor_with_len
-                  0x005cba                  _de_create_sequence
-                  0x005cc4                  _de_push_sequence
-                  0x005cde                  _de_pop_sequence
-                  0x005cfc                  _de_add_number
-                  0x005d60                  _de_add_data
-                  0x005dae                  _de_add_uuid128
-                  0x005de2                  _sdp_add_attribute
-                  0x005de4                  _sdp_attribute_list_constains_id
-                  0x005df8                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_get_filtered_size
-                  0x005e1a                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_filter_attributes
-                  0x005e90                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_append_attributes
-                  0x005eee                  _sdp_append_attributes_in_attributeIDList
-                  0x005f08                  _sdp_filter_attributes_in_attributeIDList
-                  0x005f30                  _spd_get_filtered_size
-                  0x005f44                  _sdp_get_attribute_value_for_attribute_id
-                  0x005f58                  _sdp_set_attribute_value_for_attribute_id
-                  0x005f70                  _sdp_record_contains_UUID128
-                  0x005f84                  _sdp_traversal_match_pattern
-                  0x005fae                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_contains_UUID128
-                  0x005fec                  _sdp_record_matches_service_search_pattern
-                  0x006004                  _de_dump_data_element
-                  0x006026                  _sdp_create_spp_service
- .text            0x006180        0x672 build/default/production/_ext/1472/main.o
-                  0x0061bc                  _InitializeSystem
-                  0x0061fc                  _USB_ApplicationEventHandler
-                  0x006292                  _getsum
-                  0x0062a2                  _conv_analog
-                  0x0062b2                  _clock
-                  0x0062b6                  build/default/production/_ext/1472/main.o:_packet_handler
-                  0x00642c                  _UART1PutBuf
-                  0x006460                  _PS3_stick_limit
-                  0x00647c                  _PS3_z_limit
-                  0x006490                  _Arduino_map
-                  0x0064d2                  _out_button_state
-                  0x006574                  _init_button_state
-                  0x00658c                  build/default/production/_ext/1472/main.o:_l2cap_interrupt_packet_handler
-                  0x0065f8                  build/default/production/_ext/1472/main.o:_l2cap_control_packet_handler
-                  0x006650                  _main
+                  0x00423e                  _l2cap_emit_credits
+                  0x004278                  _l2cap_block_new_credits
+                  0x00427e                  _l2cap_hand_out_credits
+                  0x0042ba                  _l2cap_get_channel_for_local_cid
+                  0x0042e0                  _l2cap_can_send_packet_now
+                  0x0042f6                  _l2cap_get_remote_mtu_for_local_cid
+                  0x004304                  _l2cap_send_signaling_packet
+                  0x004338                  _l2cap_get_outgoing_buffer
+                  0x00433e                  _l2cap_send_prepared
+                  0x00439e                  _l2cap_send_prepared_connectionless
+                  0x0043e8                  _l2cap_send_internal
+                  0x004414                  _l2cap_send_connectionless
+                  0x004444                  _l2cap_run
+                  0x0046e4                  _l2cap_max_mtu
+                  0x00477e                  _l2cap_create_channel_internal
+                  0x0047ec                  _l2cap_disconnect_internal
+                  0x0047fa                  _l2cap_event_handler
+                  0x004946                  _l2cap_accept_connection_internal
+                  0x004954                  _l2cap_decline_connection_internal
+                  0x00496a                  _l2cap_signaling_handle_configure_request
+                  0x0049ac                  _l2cap_signaling_handler_channel
+                  0x004a7e                  _l2cap_signaling_handler_dispatch
+                  0x004b0c                  _l2cap_acl_handler
+                  0x004b96                  build/default/production/_ext/1468720089/l2cap.o:_l2cap_packet_handler
+                  0x004bb0                  _l2cap_register_service_internal
+                  0x004bfe                  _l2cap_unregister_service_internal
+                  0x004c24                  _l2cap_close_connection
+                  0x004c5e                  _l2cap_register_fixed_channel
+ .text            0x004c70        0xc1e build/default/production/_ext/1468720089/hci.o
+                  0x004c94                  build/default/production/_ext/1468720089/hci.o:_dummy_handler
+                  0x004d9c                  _connection_for_handle
+                  0x004dc2                  _hci_authentication_active_for_handle
+                  0x004dda                  _hci_drop_link_key_for_bd_addr
+                  0x004de6                  _hci_number_outgoing_packets
+                  0x004df4                  _hci_number_free_acl_slots
+                  0x004e1e                  _hci_can_send_packet_now
+                  0x004e4e                  _hci_send_acl_packet
+                  0x004e92                  _hci_usable_acl_packet_types
+                  0x004e96                  _hci_get_outgoing_acl_packet_buffer
+                  0x004e9a                  _hci_max_acl_data_packet_length
+                  0x004e9e                  _hci_register_packet_handler
+                  0x004ea2                  _hci_init
+                  0x004ee2                  _hci_emit_state
+                  0x004f08                  _hci_emit_connection_complete
+                  0x004f48                  _hci_send_cmd_packet
+                  0x005022                  _hci_send_cmd
+                  0x005036                  _hci_emit_disconnection_complete
+                  0x00506c                  _hci_emit_l2cap_check_timeout
+                  0x005096                  build/default/production/_ext/1468720089/hci.o:_hci_connection_timeout_handler
+                  0x0050d4                  _hci_emit_nr_connections_changed
+                  0x005118                  _hci_run
+                  0x005362                  _hci_connectable_control
+                  0x00541c                  _hci_emit_hci_open_failed
+                  0x005480                  _hci_power_control
+                  0x00554a                  _hci_close
+                  0x00556e                  _hci_emit_system_bluetooth_enabled
+                  0x005592                  _hci_emit_remote_name_cached
+                  0x0055d4                  _hci_emit_discoverable_enabled
+                  0x0055f8                  _hci_discoverable_control
+                  0x005874                  _packet_handler
+ .text            0x00588e        0x8f4 build/default/production/_ext/1468720089/sdp_util.o
+                  0x005896                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attributeID_search
+                  0x0058e8                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_attribute_by_id
+                  0x0058f6                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_set_attribute_for_id
+                  0x005970                  _sdp_normalize_uuid
+                  0x00597e                  _de_get_size_type
+                  0x005984                  _de_get_element_type
+                  0x00598a                  _de_get_header_size
+                  0x00599c                  _de_get_data_size
+                  0x005a0e                  _de_get_len
+                  0x005a76                  build/default/production/_ext/1468720089/sdp_util.o:_de_traversal_dump_data
+                  0x005c16                  _de_get_normalized_uuid
+                  0x005c92                  _de_store_descriptor_with_len
+                  0x005cbc                  _de_create_sequence
+                  0x005cc6                  _de_push_sequence
+                  0x005ce0                  _de_pop_sequence
+                  0x005cfe                  _de_add_number
+                  0x005d62                  _de_add_data
+                  0x005db0                  _de_add_uuid128
+                  0x005de4                  _sdp_add_attribute
+                  0x005de6                  _sdp_attribute_list_constains_id
+                  0x005dfa                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_get_filtered_size
+                  0x005e1c                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_filter_attributes
+                  0x005e92                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_append_attributes
+                  0x005ef0                  _sdp_append_attributes_in_attributeIDList
+                  0x005f0a                  _sdp_filter_attributes_in_attributeIDList
+                  0x005f32                  _spd_get_filtered_size
+                  0x005f46                  _sdp_get_attribute_value_for_attribute_id
+                  0x005f5a                  _sdp_set_attribute_value_for_attribute_id
+                  0x005f72                  _sdp_record_contains_UUID128
+                  0x005f86                  _sdp_traversal_match_pattern
+                  0x005fb0                  build/default/production/_ext/1468720089/sdp_util.o:_sdp_traversal_contains_UUID128
+                  0x005fee                  _sdp_record_matches_service_search_pattern
+                  0x006006                  _de_dump_data_element
+                  0x006028                  _sdp_create_spp_service
+ .text            0x006182        0x670 build/default/production/_ext/1472/main.o
+                  0x0061be                  _InitializeSystem
+                  0x0061fe                  _USB_ApplicationEventHandler
+                  0x006294                  _getsum
+                  0x0062a4                  _conv_analog
+                  0x0062b4                  _clock
+                  0x0062b8                  build/default/production/_ext/1472/main.o:_packet_handler
+                  0x00642e                  _UART1PutBuf
+                  0x006462                  _PS3_stick_limit
+                  0x00647e                  _PS3_z_limit
+                  0x006492                  _Arduino_map
+                  0x0064d4                  _out_button_state
+                  0x006576                  _init_button_state
+                  0x00658e                  build/default/production/_ext/1472/main.o:_l2cap_interrupt_packet_handler
+                  0x0065fa                  build/default/production/_ext/1472/main.o:_l2cap_control_packet_handler
+                  0x006652                  _main
                   0x00676c                  _hal_tick_init
                   0x006770                  _hal_tick_set_handler
                   0x006774                  _hal_tick_event
@@ -3041,137 +3039,137 @@ _04D08E405e4b7d74
                   0x007580                  _USBHostBluetoothReadAcl
                   0x0075ba                  _USBHostBluetoothWriteAcl
                   0x00760e                  _USBHostBluetoothWriteCmd
- .text            0x007644        0x1f2 build/default/production/_ext/1472/flash.o
+ .text            0x007644        0x1f6 build/default/production/_ext/1472/flash.o
                   0x007644                  _erase_flashmem
                   0x007668                  _prog_flashmem_row2
                   0x0076e8                  _read_flashmem
                   0x007704                  _save_link_keys
-                  0x007762                  _load_link_keys
-                  0x0077b4                  _print_link_keys
-                  0x0077b6                  _read_local_bluetooth_address
-                  0x0077de                  _Check_saved_local_bluetooth_address
-                  0x007814                  _save_local_bluetooth_address
- .text            0x007836        0x1a4 build/default/production/_ext/1468720089/remote_device_db_memory.o
-                  0x007836                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_open
-                  0x007838                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_close
-                  0x00783a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_persistent_rfcomm_channel
-                  0x0078c2                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_name
-                  0x0078de                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_name
-                  0x00790a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_name
-                  0x007952                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_link_key
-                  0x00797e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_link_key
-                  0x00799a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_link_key
+                  0x007764                  _load_link_keys
+                  0x0077b6                  _print_link_keys
+                  0x0077b8                  _read_local_bluetooth_address
+                  0x0077e0                  _Check_saved_local_bluetooth_address
+                  0x007816                  _save_local_bluetooth_address
+ .text            0x00783a        0x1a4 build/default/production/_ext/1468720089/remote_device_db_memory.o
+                  0x00783a                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_open
+                  0x00783c                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_db_close
+                  0x00783e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_persistent_rfcomm_channel
+                  0x0078c6                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_name
+                  0x0078e2                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_name
+                  0x00790e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_name
+                  0x007956                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_get_link_key
+                  0x007982                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_delete_link_key
+                  0x00799e                  build/default/production/_ext/1468720089/remote_device_db_memory.o:_put_link_key
 
-.dinit            0x0079da        0x146
- .dinit           0x0079da        0x146 data_init
+.dinit            0x0079de        0x146
+ .dinit           0x0079de        0x146 data_init
 
-.text             0x007b20        0xd1e
- .text            0x007b20        0x13c build/default/production/_ext/1468720089/hci_cmds.o
-                  0x007b20                  _hci_create_cmd_internal
-                  0x007c50                  _hci_create_cmd
- .text            0x007c5c        0x136 build/default/production/_ext/1468720089/hci_transport_picusb.o
-                  0x007c5c                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_register_packet_handler
-                  0x007c60                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_get_transport_name
-                  0x007c64                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_dummy_handler
-                  0x007cbc                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_send_packet
-                  0x007cdc                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_close
-                  0x007ce4                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_open
-                  0x007cf6                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_process_ds
-                  0x007d32                  _event_bluetooth_rxEvent_done
-                  0x007d4e                  _event_bluetooth_rxAcl_done
-                  0x007d6a                  _hci_transport_picusb_instance
- .text            0x007d92        0x110 build/default/production/_ext/1472/dev_logicool_f510.o
-                  0x007e34                  _dev_logicool_f510
- .text            0x007ea2        0x102 build/default/production/_ext/1472/dev_dragonrise.o
-                  0x007f36                  _dev_dragonrise
- .text            0x007fa4        0x102 build/default/production/_ext/1472/dev_logicool_f710.o
-                  0x008038                  _dev_logicool_f710
- .text            0x0080a6         0xfc build/default/production/_ext/1472/dev_elecom_u3312s.o
-                  0x008134                  _dev_elecom_u3312s
- .text            0x0081a2         0xfc build/default/production/_ext/1472/dev_elecom_u3412s.o
-                  0x008230                  _dev_elecom_u3412s
- .text            0x00829e         0xea build/default/production/_ext/1468720089/utils.o
-                  0x00829e                  _bt_store_16
-                  0x0082a8                  _bt_store_32
-                  0x0082c6                  _net_store_16
-                  0x0082d0                  _net_store_32
-                  0x0082f0                  _bt_flip_addr
-                  0x00830a                  _hexdump
-                  0x008318                  _printUUID
-                  0x00831a                  _bd_addr_to_str
-                  0x00834a                  _print_bd_addr
-                  0x00834c                  _crc8
-                  0x008366                  _crc8_check
-                  0x008382                  _crc8_calc
- .text            0x008388         0xe4 build/default/production/_ext/1468720089/run_loop_embedded.o
-                  0x008388                  _embedded_add_timer
-                  0x0083a8                  _embedded_dump_timer
-                  0x0083aa                  build/default/production/_ext/1468720089/run_loop_embedded.o:_embedded_tick_handler
-                  0x0083bc                  _embedded_init
-                  0x0083cc                  _embedded_execute
-                  0x008424                  _embedded_remove_timer
-                  0x00842c                  _embedded_remove_data_source
-                  0x008434                  _embedded_add_data_source
-                  0x00843c                  _embedded_trigger
-                  0x008442                  _embedded_get_ticks
-                  0x008448                  _embedded_ticks_for_ms
-                  0x00844a                  _run_loop_set_timer
- .text            0x00846c         0xda build/default/production/_ext/1468720089/btstack_memory.o
-                  0x00846c                  _btstack_memory_hci_connection_get
-                  0x008472                  _btstack_memory_hci_connection_free
-                  0x00847a                  _btstack_memory_l2cap_service_get
-                  0x008480                  _btstack_memory_l2cap_service_free
-                  0x008488                  _btstack_memory_l2cap_channel_get
-                  0x00848e                  _btstack_memory_l2cap_channel_free
-                  0x008496                  _btstack_memory_rfcomm_multiplexer_get
-                  0x00849c                  _btstack_memory_rfcomm_multiplexer_free
-                  0x0084a4                  _btstack_memory_rfcomm_service_get
-                  0x0084aa                  _btstack_memory_rfcomm_service_free
-                  0x0084b2                  _btstack_memory_rfcomm_channel_get
-                  0x0084b8                  _btstack_memory_rfcomm_channel_free
-                  0x0084c0                  _btstack_memory_db_mem_device_name_get
-                  0x0084c6                  _btstack_memory_db_mem_device_name_free
-                  0x0084ce                  _btstack_memory_db_mem_device_link_key_get
-                  0x0084d4                  _btstack_memory_db_mem_device_link_key_free
-                  0x0084dc                  _btstack_memory_db_mem_service_get
-                  0x0084e2                  _btstack_memory_db_mem_service_free
-                  0x0084ea                  _btstack_memory_init
- .text            0x008546         0xae build/default/production/_ext/1468720089/l2cap_signaling.o
-                  0x008546                  _l2cap_next_sig_id
-                  0x00855a                  _l2cap_next_local_cid
-                  0x008562                  _l2cap_create_signaling_internal
- .text            0x0085f4         0xae build/default/production/_ext/2108356922/uart1.o
-                  0x0085f4                  _UART1GetBaudError
-                  0x0085f8                  _UART1Init
-                  0x008654                  _UART1PutChar
-                  0x008674                  _UART1GetChar
-                  0x00869a                  _UART1GetBufferSpace
- .text            0x0086a2         0x8a build/default/production/_ext/1468720089/linked_list.o
-                  0x0086a2                  _linked_list_empty
-                  0x0086ae                  _linked_list_get_last_item
-                  0x0086c6                  _linked_list_add
-                  0x0086e4                  _linked_list_add_tail
-                  0x0086f8                  _linked_list_remove
-                  0x008722                  _linked_item_set_user
-                  0x008728                  _linked_item_get_user
- .text            0x00872c         0x82 build/default/production/_ext/1472/TimeDelay.o
-                  0x00872c                  _Delay10us
-                  0x008776                  _DelayMs
- .text            0x0087ae         0x42 build/default/production/_ext/1468720089/memory_pool.o
-                  0x0087ae                  _memory_pool_get
-                  0x0087be                  _memory_pool_free
-                  0x0087c4                  _memory_pool_create
- .text            0x0087f0         0x42 build/default/production/_ext/1468720089/run_loop.o
-                  0x0087f0                  _run_loop_assert
-                  0x0087f2                  _run_loop_add_data_source
-                  0x0087fa                  _run_loop_remove_data_source
-                  0x008802                  _run_loop_add_timer
-                  0x00880a                  _run_loop_remove_timer
-                  0x008812                  _run_loop_timer_dump
-                  0x00881a                  _run_loop_execute
-                  0x008822                  _run_loop_init
- .text            0x008832          0xc build/default/production/_ext/1468720089/hci_dump.o
-                  0x008832                  _hci_dump_open
-                  0x008834                  _hci_dump_packet
-                  0x008836                  _hci_dump_log
-                  0x00883c                  _hci_dump_close
+.text             0x007b24        0xd1e
+ .text            0x007b24        0x13c build/default/production/_ext/1468720089/hci_cmds.o
+                  0x007b24                  _hci_create_cmd_internal
+                  0x007c54                  _hci_create_cmd
+ .text            0x007c60        0x136 build/default/production/_ext/1468720089/hci_transport_picusb.o
+                  0x007c60                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_register_packet_handler
+                  0x007c64                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_get_transport_name
+                  0x007c68                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_dummy_handler
+                  0x007cc0                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_send_packet
+                  0x007ce0                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_close
+                  0x007ce8                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_open
+                  0x007cfa                  build/default/production/_ext/1468720089/hci_transport_picusb.o:_usb_process_ds
+                  0x007d36                  _event_bluetooth_rxEvent_done
+                  0x007d52                  _event_bluetooth_rxAcl_done
+                  0x007d6e                  _hci_transport_picusb_instance
+ .text            0x007d96        0x110 build/default/production/_ext/1472/dev_logicool_f510.o
+                  0x007e38                  _dev_logicool_f510
+ .text            0x007ea6        0x102 build/default/production/_ext/1472/dev_dragonrise.o
+                  0x007f3a                  _dev_dragonrise
+ .text            0x007fa8        0x102 build/default/production/_ext/1472/dev_logicool_f710.o
+                  0x00803c                  _dev_logicool_f710
+ .text            0x0080aa         0xfc build/default/production/_ext/1472/dev_elecom_u3312s.o
+                  0x008138                  _dev_elecom_u3312s
+ .text            0x0081a6         0xfc build/default/production/_ext/1472/dev_elecom_u3412s.o
+                  0x008234                  _dev_elecom_u3412s
+ .text            0x0082a2         0xea build/default/production/_ext/1468720089/utils.o
+                  0x0082a2                  _bt_store_16
+                  0x0082ac                  _bt_store_32
+                  0x0082ca                  _net_store_16
+                  0x0082d4                  _net_store_32
+                  0x0082f4                  _bt_flip_addr
+                  0x00830e                  _hexdump
+                  0x00831c                  _printUUID
+                  0x00831e                  _bd_addr_to_str
+                  0x00834e                  _print_bd_addr
+                  0x008350                  _crc8
+                  0x00836a                  _crc8_check
+                  0x008386                  _crc8_calc
+ .text            0x00838c         0xe4 build/default/production/_ext/1468720089/run_loop_embedded.o
+                  0x00838c                  _embedded_add_timer
+                  0x0083ac                  _embedded_dump_timer
+                  0x0083ae                  build/default/production/_ext/1468720089/run_loop_embedded.o:_embedded_tick_handler
+                  0x0083c0                  _embedded_init
+                  0x0083d0                  _embedded_execute
+                  0x008428                  _embedded_remove_timer
+                  0x008430                  _embedded_remove_data_source
+                  0x008438                  _embedded_add_data_source
+                  0x008440                  _embedded_trigger
+                  0x008446                  _embedded_get_ticks
+                  0x00844c                  _embedded_ticks_for_ms
+                  0x00844e                  _run_loop_set_timer
+ .text            0x008470         0xda build/default/production/_ext/1468720089/btstack_memory.o
+                  0x008470                  _btstack_memory_hci_connection_get
+                  0x008476                  _btstack_memory_hci_connection_free
+                  0x00847e                  _btstack_memory_l2cap_service_get
+                  0x008484                  _btstack_memory_l2cap_service_free
+                  0x00848c                  _btstack_memory_l2cap_channel_get
+                  0x008492                  _btstack_memory_l2cap_channel_free
+                  0x00849a                  _btstack_memory_rfcomm_multiplexer_get
+                  0x0084a0                  _btstack_memory_rfcomm_multiplexer_free
+                  0x0084a8                  _btstack_memory_rfcomm_service_get
+                  0x0084ae                  _btstack_memory_rfcomm_service_free
+                  0x0084b6                  _btstack_memory_rfcomm_channel_get
+                  0x0084bc                  _btstack_memory_rfcomm_channel_free
+                  0x0084c4                  _btstack_memory_db_mem_device_name_get
+                  0x0084ca                  _btstack_memory_db_mem_device_name_free
+                  0x0084d2                  _btstack_memory_db_mem_device_link_key_get
+                  0x0084d8                  _btstack_memory_db_mem_device_link_key_free
+                  0x0084e0                  _btstack_memory_db_mem_service_get
+                  0x0084e6                  _btstack_memory_db_mem_service_free
+                  0x0084ee                  _btstack_memory_init
+ .text            0x00854a         0xae build/default/production/_ext/1468720089/l2cap_signaling.o
+                  0x00854a                  _l2cap_next_sig_id
+                  0x00855e                  _l2cap_next_local_cid
+                  0x008566                  _l2cap_create_signaling_internal
+ .text            0x0085f8         0xae build/default/production/_ext/2108356922/uart1.o
+                  0x0085f8                  _UART1GetBaudError
+                  0x0085fc                  _UART1Init
+                  0x008658                  _UART1PutChar
+                  0x008678                  _UART1GetChar
+                  0x00869e                  _UART1GetBufferSpace
+ .text            0x0086a6         0x8a build/default/production/_ext/1468720089/linked_list.o
+                  0x0086a6                  _linked_list_empty
+                  0x0086b2                  _linked_list_get_last_item
+                  0x0086ca                  _linked_list_add
+                  0x0086e8                  _linked_list_add_tail
+                  0x0086fc                  _linked_list_remove
+                  0x008726                  _linked_item_set_user
+                  0x00872c                  _linked_item_get_user
+ .text            0x008730         0x82 build/default/production/_ext/1472/TimeDelay.o
+                  0x008730                  _Delay10us
+                  0x00877a                  _DelayMs
+ .text            0x0087b2         0x42 build/default/production/_ext/1468720089/memory_pool.o
+                  0x0087b2                  _memory_pool_get
+                  0x0087c2                  _memory_pool_free
+                  0x0087c8                  _memory_pool_create
+ .text            0x0087f4         0x42 build/default/production/_ext/1468720089/run_loop.o
+                  0x0087f4                  _run_loop_assert
+                  0x0087f6                  _run_loop_add_data_source
+                  0x0087fe                  _run_loop_remove_data_source
+                  0x008806                  _run_loop_add_timer
+                  0x00880e                  _run_loop_remove_timer
+                  0x008816                  _run_loop_timer_dump
+                  0x00881e                  _run_loop_execute
+                  0x008826                  _run_loop_init
+ .text            0x008836          0xc build/default/production/_ext/1468720089/hci_dump.o
+                  0x008836                  _hci_dump_open
+                  0x008838                  _hci_dump_packet
+                  0x00883a                  _hci_dump_log
+                  0x008840                  _hci_dump_close
